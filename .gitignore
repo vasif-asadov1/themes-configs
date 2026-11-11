@@ -1,0 +1,22 @@
+# VS Code extension packages
+*.vsix
+
+# Extension installation metadata
+.vsixmanifest
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.swp
+*.swo
+
+# Python
+__pycache__/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db

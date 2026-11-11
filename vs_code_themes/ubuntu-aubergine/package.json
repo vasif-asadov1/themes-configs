@@ -1,0 +1,39 @@
+
+{
+  "name": "ubuntu-aubergine",
+  "displayName": "Ubuntu Aubergine Advanced",
+  "description": "An advanced Ubuntu-inspired dark theme featuring the classic aubergine background, orange accents, comprehensive syntax highlighting, semantic tokens, and enhanced Jupyter notebook styling.",
+  "version": "2.0.0",
+  "publisher": "vasif",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "ubuntu",
+    "aubergine",
+    "purple",
+    "orange",
+    "dark",
+    "theme",
+    "python",
+    "sql",
+    "jupyter",
+    "markdown",
+    "typst",
+    "latex",
+    "json",
+    "yaml"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ubuntu Aubergine Advanced",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ubuntu-aubergine-color-theme.json"
+      }
+    ]
+  }
+}
