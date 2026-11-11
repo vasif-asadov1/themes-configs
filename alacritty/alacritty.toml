@@ -1,0 +1,147 @@
+# Ubuntu Aubergine Advanced — Alacritty
+# Matches the VS Code Ubuntu Aubergine Advanced palette.
+
+[window]
+decorations_theme_variant = "Dark"
+opacity = 1.0
+blur = true # May have no effect on XFCE/X11 without compositor support.
+decorations = "Full"
+dynamic_title = true
+dynamic_padding = true
+startup_mode = "Maximized"
+
+[window.padding]
+x = 14
+y = 12
+
+[window.dimensions]
+columns = 120
+lines = 34
+
+[font]
+size = 13.0
+builtin_box_drawing = true
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[cursor.vi_mode_style]
+shape = "Block"
+blinking = "Off"
+
+[scrolling]
+history = 50000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[mouse]
+hide_when_typing = true
+
+[bell]
+animation = "EaseOutExpo"
+duration = 150
+color = "#e95420"
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+  { key = "Return", mods = "Control|Shift", action = "ToggleFullscreen" },
+  { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+  { key = "PageUp", mods = "Shift", action = "ScrollPageUp" },
+  { key = "PageDown", mods = "Shift", action = "ScrollPageDown" },
+  { key = "Home", mods = "Shift", action = "ScrollToTop" },
+  { key = "End", mods = "Shift", action = "ScrollToBottom" },
+  { key = "F", mods = "Control|Shift", action = "SearchForward" },
+  { key = "B", mods = "Control|Shift", action = "SearchBackward" },
+  { key = "Space", mods = "Control|Shift", action = "ToggleViMode" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "K", mods = "Control|Shift", chars = "\u000c", mode = "~Alt" },
+  { key = "K", mods = "Control|Shift", action = "ClearHistory" },
+  { key = "Left", mods = "Alt", chars = "\u001bb" },
+  { key = "Right", mods = "Alt", chars = "\u001bf" },
+  { key = "Backspace", mods = "Alt", chars = "\u001b\u007f" },
+  { key = "Backspace", mods = "Control", chars = "\u0017" },
+]
+
+[colors.primary]
+background = "#300a24"
+foreground = "#eeeeec"
+
+[colors.cursor]
+text = "#300a24"
+cursor = "#e95420"
+
+[colors.vi_mode_cursor]
+text = "#300a24"
+cursor = "#fcaf3e"
+
+[colors.normal]
+black = "#2e3436"
+red = "#cc0000"
+green = "#4e9a06"
+yellow = "#c4a000"
+blue = "#3465a4"
+magenta = "#75507b"
+cyan = "#06989a"
+white = "#d3d7cf"
+
+[colors.bright]
+black = "#555753"
+red = "#ef2929"
+green = "#8ae234"
+yellow = "#fce94f"
+blue = "#729fcf"
+magenta = "#ad7fa8"
+cyan = "#34e2e2"
+white = "#eeeeec"
+
+[colors.selection]
+text = "CellForeground"
+background = "#6b2d56"
+
+[colors.search.matches]
+foreground = "#eeeeec"
+background = "#772953"
+
+[colors.search.focused_match]
+foreground = "#300a24"
+background = "#fcaf3e"
+
+[colors.footer_bar]
+background = "#260719"
+foreground = "#eeeeec"
+
+[colors.hints.start]
+foreground = "#300a24"
+background = "#fcaf3e"
+
+[colors.hints.end]
+foreground = "#eeeeec"
+background = "#772953"
