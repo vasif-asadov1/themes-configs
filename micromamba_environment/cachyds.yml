@@ -1,0 +1,97 @@
+name: cachyds
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Python runtime
+  - python=3.12
+  - pip
+
+  # Scientific computing
+  - numpy
+  - scipy
+  - sympy
+  - numba
+
+  # Data processing
+  - pandas>=2.3,<3
+  - polars
+  - pyarrow
+  - fastparquet
+
+  # Statistics
+  - statsmodels
+  - pingouin
+
+  # Machine learning
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - libxgboost=*=cpu_*
+  - catboost=*=cpu_*
+  - shap=*=cpu_*
+
+  # Hyperparameter optimization
+  - optuna
+  - scikit-optimize
+
+  # Model interpretation
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  - bokeh
+  - altair
+
+  # Dashboard development
+  - streamlit
+  - dash
+
+  # Data engineering
+  - duckdb
+  - dbt-core
+  - dbt-postgres
+  - dbt-snowflake
+  - dbt-duckdb
+
+  # SQL and database connectivity
+  - sqlalchemy
+  - psycopg
+  - pymysql
+  - snowflake-connector-python
+  - snowflake-sqlalchemy
+
+  # Cloud and storage
+  - boto3
+  - s3fs
+  - fsspec
+
+  # File formats
+  - openpyxl
+  - xlsxwriter
+  - pyyaml
+  - python-dateutil
+  - lxml
+  - beautifulsoup4
+
+  # Data validation
+  - pydantic
+  - pandera
+
+  # HTTP and API clients
+  - requests
+  - httpx
+  - python-dotenv
+
+  # Development utilities
+  - tqdm
+  - rich
+  - joblib
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - notebook
