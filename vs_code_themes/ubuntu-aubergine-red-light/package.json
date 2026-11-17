@@ -1,0 +1,43 @@
+{
+  "name": "ubuntu-aubergine-red-light",
+  "displayName": "Ubuntu Aubergine Red Light Advanced",
+  "description": "Warm red-based light Ubuntu Aubergine theme with dusty terracotta and rose-red surfaces, burgundy accents, comprehensive syntax highlighting, semantic tokens and Jupyter styling.",
+  "version": "2.2.0",
+  "publisher": "vasif",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "ubuntu",
+    "aubergine",
+    "red",
+    "light",
+    "rose",
+    "burgundy",
+    "terracotta",
+    "python",
+    "sql",
+    "jupyter",
+    "markdown",
+    "typst",
+    "latex",
+    "json",
+    "yaml"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ubuntu Aubergine Red Light Advanced",
+        "uiTheme": "vs",
+        "path": "./themes/ubuntu-aubergine-red-light-color-theme.json"
+      }
+    ]
+  },
+  "files": [
+    "themes/ubuntu-aubergine-red-light-color-theme.json",
+    "README.md"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ubuntu-aubergine-rose-light",
+  "displayName": "Ubuntu Aubergine Rose Light Advanced",
+  "description": "A distinctly aubergine-tinted light VS Code theme with dusty rose editor surfaces, plum chrome, burgundy syntax and comprehensive language and Jupyter support.",
+  "version": "2.1.0",
+  "publisher": "vasif",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "aubergine",
+    "rose",
+    "mauve",
+    "light",
+    "ubuntu",
+    "purple",
+    "burgundy",
+    "red",
+    "orange",
+    "python",
+    "sql",
+    "jupyter",
+    "markdown",
+    "typst",
+    "latex",
+    "json",
+    "yaml"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ubuntu Aubergine Rose Light Advanced",
+        "uiTheme": "vs",
+        "path": "./themes/ubuntu-aubergine-rose-light-color-theme.json"
+      }
+    ]
+  },
+  "files": [
+    "themes/ubuntu-aubergine-rose-light-color-theme.json",
+    "README.md"
+  ]
+}
