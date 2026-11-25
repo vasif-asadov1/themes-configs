@@ -1,0 +1,26 @@
+{
+    "name": "obsidian-sapphire-theme",
+    "displayName": "Obsidian Sapphire Theme",
+    "description": "A unified dark color theme for developers, data engineers and researchers.",
+    "version": "1.1.0",
+    "publisher": "vasif-asadov",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Obsidian Sapphire Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/obsidian-sapphire-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vasif-asadov1/themes-configs.git"
+    }
+}

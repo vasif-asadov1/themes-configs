@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<language id="typst" name="Typst (Basic)" version="2.0" section="Other">
+  <metadata>
+    <property name="globs">*.typ</property>
+  </metadata>
+  <styles>
+    <style id="comment" name="comment"/>
+    <style id="raw" name="raw"/>
+    <style id="heading" name="heading"/>
+    <style id="string" name="string"/>
+    <style id="math" name="math"/>
+    <style id="keyword" name="keyword"/>
+    <style id="function" name="function"/>
+    <style id="reference" name="reference"/>
+    <style id="constant" name="constant"/>
+    <style id="number" name="number"/>
+    <style id="strong" name="strong"/>
+    <style id="emphasis" name="emphasis"/>
+  </styles>
+  <definitions>
+    <context id="line-comment" style-ref="comment">
+      <match>//.*$</match>
+    </context>
+    <context id="block-comment" style-ref="comment">
+      <start>/\*</start>
+      <end>\*/</end>
+    </context>
+    <context id="raw" style-ref="raw">
+      <start>```</start>
+      <end>```</end>
+    </context>
+    <context id="inline-raw" style-ref="raw">
+      <match>`[^`\n]*`</match>
+    </context>
+    <context id="heading" style-ref="heading">
+      <match>^\s*={1,6}\s+.*$</match>
+    </context>
+    <context id="string" style-ref="string">
+      <match>"(?:\\.|[^"\\])*"</match>
+    </context>
+    <context id="math" style-ref="math">
+      <start>\$</start>
+      <end>\$</end>
+    </context>
+    <context id="keyword" style-ref="keyword">
+      <match>#(?:let|set|show|import|include|if|else|for|while|return|break|continue)\b</match>
+    </context>
+    <context id="function" style-ref="function">
+      <match>#[\w-]+(?:\.[\w-]+)*(?=\s*[\[(])</match>
+    </context>
+    <context id="reference" style-ref="reference">
+      <match>@[\w:-]+|&lt;[\w:-]+&gt;</match>
+    </context>
+    <context id="constant" style-ref="constant">
+      <match>\b(?:true|false|none|auto)\b</match>
+    </context>
+    <context id="number" style-ref="number">
+      <match>\b\d+(?:\.\d+)?(?:pt|cm|mm|in|em|deg|rad|fr|%)?</match>
+    </context>
+    <context id="strong" style-ref="strong">
+      <match>\*[^*\n]+\*</match>
+    </context>
+    <context id="emphasis" style-ref="emphasis">
+      <match>_[^_\n]+_</match>
+    </context>
+    <context id="typst">
+      <include>
+        <context ref="line-comment"/>
+        <context ref="block-comment"/>
+        <context ref="raw"/>
+        <context ref="inline-raw"/>
+        <context ref="heading"/>
+        <context ref="string"/>
+        <context ref="math"/>
+        <context ref="keyword"/>
+        <context ref="function"/>
+        <context ref="reference"/>
+        <context ref="constant"/>
+        <context ref="number"/>
+        <context ref="strong"/>
+        <context ref="emphasis"/>
+      </include>
+    </context>
+  </definitions>
+</language>

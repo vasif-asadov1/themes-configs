@@ -1,0 +1,1617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<style-scheme id="obsidian-sapphire" version="1.0" _name="Obsidian Sapphire Theme">
+    <author>Obsidian Sapphire</author>
+    <description>Universal Obsidian Sapphire theme for GtkSourceView 4</description>
+    <style name="text" background="#151B23" foreground="#D4DEEB" />
+    <style name="selection" background="#2C4057" foreground="#D4DEEB" />
+    <style name="current-line" background="#1C2835" />
+    <style name="line-numbers" background="#151B23" foreground="#8293AA" />
+    <style name="cursor" foreground="#98FFB3" />
+    <style name="bracket-match" background="#2C4057" bold="true" foreground="#98FFB3" />
+    <style name="bracket-mismatch" bold="true" foreground="#ED7786" />
+    <style name="search-match" background="#E7C080" foreground="#151B23" />
+    <style name="right-margin" foreground="#52657D" />
+    <style name="draw-spaces" foreground="#52657D" />
+    <style name="def:comment" italic="true" foreground="#8293AA" />
+    <style name="def:shebang" italic="true" foreground="#8293AA" />
+    <style name="def:doc-comment" italic="true" foreground="#8293AA" />
+    <style name="def:thematic-break" foreground="#8293AA" />
+    <style name="def:string" foreground="#89C9A6" />
+    <style name="def:character" foreground="#89C9A6" />
+    <style name="def:inline-code" foreground="#89C9A6" />
+    <style name="def:preformatted-section" foreground="#89C9A6" />
+    <style name="def:number" foreground="#E7C080" />
+    <style name="def:decimal" foreground="#E7C080" />
+    <style name="def:floating-point" foreground="#E7C080" />
+    <style name="def:base-n-integer" foreground="#E7C080" />
+    <style name="def:complex" foreground="#E7C080" />
+    <style name="def:strong-emphasis" bold="true" foreground="#E7C080" />
+    <style name="def:warning" foreground="#E7C080" />
+    <style name="def:note" foreground="#E7C080" />
+    <style name="def:constant" foreground="#98FFB3" />
+    <style name="def:special-constant" foreground="#98FFB3" />
+    <style name="def:boolean" foreground="#98FFB3" />
+    <style name="def:list-marker" foreground="#98FFB3" />
+    <style name="def:insertion" foreground="#98FFB3" />
+    <style name="def:statement" foreground="#B49AF0" />
+    <style name="def:keyword" foreground="#B49AF0" />
+    <style name="def:emphasis" italic="true" foreground="#B49AF0" />
+    <style name="def:preprocessor" foreground="#B49AF0" />
+    <style name="def:type" foreground="#59C9C2" />
+    <style name="def:operator" foreground="#59C9C2" />
+    <style name="def:builtin" foreground="#59C9C2" />
+    <style name="def:link-destination" foreground="#59C9C2" />
+    <style name="def:doc-comment-element" foreground="#59C9C2" />
+    <style name="def:special-char" foreground="#59C9C2" />
+    <style name="def:function" foreground="#64B5F6" />
+    <style name="def:heading" bold="true" foreground="#64B5F6" />
+    <style name="def:link-text" underline="single" foreground="#64B5F6" />
+    <style name="def:link-symbol" foreground="#64B5F6" />
+    <style name="def:net-address" underline="single" foreground="#64B5F6" />
+    <style name="def:underlined" underline="single" foreground="#64B5F6" />
+    <style name="def:error" foreground="#ED7786" />
+    <style name="def:reserved" foreground="#ED7786" />
+    <style name="def:deletion" strikethrough="true" foreground="#ED7786" />
+    <style name="def:identifier" foreground="#D4DEEB" />
+    <style name="def:heading0" bold="true" foreground="#64B5F6" />
+    <style name="def:heading1" bold="true" foreground="#64B5F6" />
+    <style name="def:heading2" bold="true" foreground="#64B5F6" />
+    <style name="def:heading3" bold="true" foreground="#64B5F6" />
+    <style name="def:heading4" bold="true" foreground="#64B5F6" />
+    <style name="def:heading5" bold="true" foreground="#64B5F6" />
+    <style name="def:heading6" bold="true" foreground="#64B5F6" />
+    <style name="python:module-handler" foreground="#B49AF0" />
+    <style name="python:keyword" foreground="#B49AF0" />
+    <style name="python:multiline-string" foreground="#89C9A6" />
+    <style name="python:string" foreground="#89C9A6" />
+    <style name="python:escaped-char" foreground="#59C9C2" />
+    <style name="python:format" foreground="#59C9C2" />
+    <style name="python:string-conversion" foreground="#59C9C2" />
+    <style name="python:special-variable" foreground="#E7C080" />
+    <style name="python:boolean" foreground="#98FFB3" />
+    <style name="python:floating-point" foreground="#E7C080" />
+    <style name="python:decimal" foreground="#E7C080" />
+    <style name="python:base-n-integer" foreground="#E7C080" />
+    <style name="python:complex" foreground="#E7C080" />
+    <style name="python:builtin-constant" foreground="#98FFB3" />
+    <style name="python:builtin-object" foreground="#59C9C2" />
+    <style name="python:builtin-function" foreground="#64B5F6" />
+    <style name="python:function-name" foreground="#64B5F6" />
+    <style name="python:class-name" foreground="#59C9C2" />
+    <style name="python:decorator" foreground="#E7C080" />
+    <style name="python3:module-handler" foreground="#B49AF0" />
+    <style name="python3:keyword" foreground="#B49AF0" />
+    <style name="python3:multiline-string" foreground="#89C9A6" />
+    <style name="python3:string" foreground="#89C9A6" />
+    <style name="python3:escaped-char" foreground="#59C9C2" />
+    <style name="python3:format" foreground="#59C9C2" />
+    <style name="python3:string-conversion" foreground="#59C9C2" />
+    <style name="python3:special-variable" foreground="#E7C080" />
+    <style name="python3:boolean" foreground="#98FFB3" />
+    <style name="python3:floating-point" foreground="#E7C080" />
+    <style name="python3:decimal" foreground="#E7C080" />
+    <style name="python3:base-n-integer" foreground="#E7C080" />
+    <style name="python3:complex" foreground="#E7C080" />
+    <style name="python3:builtin-constant" foreground="#98FFB3" />
+    <style name="python3:builtin-object" foreground="#59C9C2" />
+    <style name="python3:builtin-function" foreground="#64B5F6" />
+    <style name="python3:function-name" foreground="#64B5F6" />
+    <style name="python3:class-name" foreground="#59C9C2" />
+    <style name="python3:decorator" foreground="#E7C080" />
+    <style name="sql:comment" italic="true" foreground="#8293AA" />
+    <style name="sql:floating-point" foreground="#E7C080" />
+    <style name="sql:string" foreground="#89C9A6" />
+    <style name="sql:keyword" foreground="#B49AF0" />
+    <style name="sql:function" foreground="#64B5F6" />
+    <style name="sql:decimal" foreground="#E7C080" />
+    <style name="sql:type" foreground="#59C9C2" />
+    <style name="sql:some-thing" foreground="#59C9C2" />
+    <style name="json:keyname" foreground="#64B5F6" />
+    <style name="json:special-char" foreground="#59C9C2" />
+    <style name="json:string" foreground="#89C9A6" />
+    <style name="json:null-value" foreground="#98FFB3" />
+    <style name="json:boolean" foreground="#98FFB3" />
+    <style name="json:error" foreground="#ED7786" />
+    <style name="json:float" foreground="#E7C080" />
+    <style name="json:decimal" foreground="#E7C080" />
+    <style name="json:comment" italic="true" foreground="#8293AA" />
+    <style name="jsonc:keyname" foreground="#64B5F6" />
+    <style name="jsonc:special-char" foreground="#59C9C2" />
+    <style name="jsonc:string" foreground="#89C9A6" />
+    <style name="jsonc:null-value" foreground="#98FFB3" />
+    <style name="jsonc:boolean" foreground="#98FFB3" />
+    <style name="jsonc:error" foreground="#ED7786" />
+    <style name="jsonc:float" foreground="#E7C080" />
+    <style name="jsonc:decimal" foreground="#E7C080" />
+    <style name="jsonc:comment" italic="true" foreground="#8293AA" />
+    <style name="markdown:header" bold="true" foreground="#64B5F6" />
+    <style name="markdown:horizontal-rule" foreground="#8293AA" />
+    <style name="markdown:list-marker" foreground="#98FFB3" />
+    <style name="markdown:code-span" foreground="#89C9A6" />
+    <style name="markdown:code-block" foreground="#89C9A6" />
+    <style name="markdown:blockquote-marker" foreground="#B49AF0" />
+    <style name="markdown:url" foreground="#59C9C2" />
+    <style name="markdown:link-text" underline="single" foreground="#64B5F6" />
+    <style name="markdown:label" foreground="#E7C080" />
+    <style name="markdown:attribute-value" foreground="#98FFB3" />
+    <style name="markdown:image-marker" foreground="#B49AF0" />
+    <style name="markdown:emphasis" italic="true" foreground="#B49AF0" />
+    <style name="markdown:strong-emphasis" bold="true" foreground="#E7C080" />
+    <style name="markdown:backslash-escape" foreground="#59C9C2" />
+    <style name="markdown:line-break" foreground="#E7C080" />
+    <style name="typst:heading" bold="true" foreground="#64B5F6" />
+    <style name="typst:comment" italic="true" foreground="#8293AA" />
+    <style name="typst:string" foreground="#89C9A6" />
+    <style name="typst:keyword" foreground="#B49AF0" />
+    <style name="typst:function" foreground="#64B5F6" />
+    <style name="typst:number" foreground="#E7C080" />
+    <style name="typst:constant" foreground="#98FFB3" />
+    <style name="typst:math" foreground="#59C9C2" />
+    <style name="typst:reference" foreground="#59C9C2" />
+    <style name="typst:raw" foreground="#89C9A6" />
+    <style name="typst:strong" bold="true" foreground="#E7C080" />
+    <style name="typst:emphasis" italic="true" foreground="#B49AF0" />
+    <style name="typst:operator" foreground="#59C9C2" />
+    <style name="abnf:binary" foreground="#E7C080" />
+    <style name="abnf:comment" italic="true" foreground="#8293AA" />
+    <style name="abnf:decimal" foreground="#E7C080" />
+    <style name="abnf:hexadecimal" foreground="#E7C080" />
+    <style name="abnf:rulename" foreground="#59C9C2" />
+    <style name="abnf:string" foreground="#89C9A6" />
+    <style name="actionscript:boolean" foreground="#98FFB3" />
+    <style name="actionscript:comment" italic="true" foreground="#8293AA" />
+    <style name="actionscript:declaration" foreground="#59C9C2" />
+    <style name="actionscript:error" foreground="#ED7786" />
+    <style name="actionscript:external" foreground="#B49AF0" />
+    <style name="actionscript:keyword" foreground="#B49AF0" />
+    <style name="actionscript:null-value" foreground="#98FFB3" />
+    <style name="actionscript:number" foreground="#E7C080" />
+    <style name="actionscript:reserved" foreground="#ED7786" />
+    <style name="actionscript:scope-declaration" foreground="#59C9C2" />
+    <style name="actionscript:storage-class" foreground="#59C9C2" />
+    <style name="actionscript:string" foreground="#89C9A6" />
+    <style name="actionscript:type" foreground="#59C9C2" />
+    <style name="ada:base-n-number" foreground="#E7C080" />
+    <style name="ada:boolean" foreground="#98FFB3" />
+    <style name="ada:comment" italic="true" foreground="#8293AA" />
+    <style name="ada:decimal" foreground="#E7C080" />
+    <style name="ada:escaped-character" foreground="#59C9C2" />
+    <style name="ada:keyword" foreground="#B49AF0" />
+    <style name="ada:preprocessor" foreground="#B49AF0" />
+    <style name="ada:real" foreground="#E7C080" />
+    <style name="ada:storage-class" foreground="#59C9C2" />
+    <style name="ada:string" foreground="#89C9A6" />
+    <style name="ada:type" foreground="#59C9C2" />
+    <style name="ansforth94:alert" foreground="#E7C080" />
+    <style name="ansforth94:character" foreground="#89C9A6" />
+    <style name="ansforth94:comment" italic="true" foreground="#8293AA" />
+    <style name="ansforth94:constant" foreground="#98FFB3" />
+    <style name="ansforth94:double-number" foreground="#E7C080" />
+    <style name="ansforth94:float" foreground="#E7C080" />
+    <style name="ansforth94:keyword" foreground="#B49AF0" />
+    <style name="ansforth94:local-variable" foreground="#59C9C2" />
+    <style name="ansforth94:obs-keyword" foreground="#B49AF0" />
+    <style name="ansforth94:single-number" foreground="#E7C080" />
+    <style name="ansforth94:string" foreground="#89C9A6" />
+    <style name="ansforth94:variable" foreground="#59C9C2" />
+    <style name="ansforth94:word" foreground="#64B5F6" />
+    <style name="asciidoc:attribute" foreground="#B49AF0" />
+    <style name="asciidoc:block-boundary" foreground="#D4DEEB" />
+    <style name="asciidoc:block-comment" italic="true" foreground="#8293AA" />
+    <style name="asciidoc:block-listing" foreground="#89C9A6" />
+    <style name="asciidoc:passthrough" foreground="#59C9C2" />
+    <style name="asciidoc:block-pass" foreground="#59C9C2" />
+    <style name="asciidoc:list-identifier" foreground="#98FFB3" />
+    <style name="asciidoc:macro" foreground="#B49AF0" />
+    <style name="asciidoc:macro-arg" foreground="#89C9A6" />
+    <style name="asciidoc:macro-att-list" foreground="#B49AF0" />
+    <style name="asciidoc:markup-admonition" foreground="#E7C080" />
+    <style name="asciidoc:markup-anchor" foreground="#B49AF0" />
+    <style name="asciidoc:markup-att-entry" foreground="#B49AF0" />
+    <style name="asciidoc:markup-crosslink" underline="single" foreground="#64B5F6" />
+    <style name="asciidoc:markup-emphasis" italic="true" foreground="#B49AF0" />
+    <style name="asciidoc:markup-linebreak" foreground="#59C9C2" />
+    <style name="asciidoc:markup-link-text" underline="single" foreground="#64B5F6" />
+    <style name="asciidoc:markup-monospace" foreground="#89C9A6" />
+    <style name="asciidoc:markup-pass" foreground="#59C9C2" />
+    <style name="asciidoc:markup-replace" foreground="#59C9C2" />
+    <style name="asciidoc:markup-strong" bold="true" foreground="#E7C080" />
+    <style name="asciidoc:markup-url" foreground="#59C9C2" />
+    <style name="asciidoc:par-literal" foreground="#89C9A6" />
+    <style name="asciidoc:preprocessor" foreground="#B49AF0" />
+    <style name="asciidoc:preprocessor-arg" foreground="#89C9A6" />
+    <style name="asciidoc:preprocessor-att-list" foreground="#B49AF0" />
+    <style name="asciidoc:struct-blocktitle" bold="true" foreground="#64B5F6" />
+    <style name="asciidoc:struct-page-break" foreground="#59C9C2" />
+    <style name="asciidoc:struct-ruler-line" foreground="#8293AA" />
+    <style name="asciidoc:struct-style" foreground="#B49AF0" />
+    <style name="asciidoc:struct-title" bold="true" foreground="#64B5F6" />
+    <style name="asp:boolean" foreground="#98FFB3" />
+    <style name="asp:comment" italic="true" foreground="#8293AA" />
+    <style name="asp:constant" foreground="#98FFB3" />
+    <style name="asp:function" foreground="#64B5F6" />
+    <style name="asp:keyword" foreground="#B49AF0" />
+    <style name="asp:number" foreground="#E7C080" />
+    <style name="asp:object" foreground="#59C9C2" />
+    <style name="asp:operator" foreground="#59C9C2" />
+    <style name="asp:preprocessor" foreground="#B49AF0" />
+    <style name="asp:special-constant" foreground="#98FFB3" />
+    <style name="asp:string" foreground="#89C9A6" />
+    <style name="asp:type" foreground="#59C9C2" />
+    <style name="automake:dirname" foreground="#B49AF0" />
+    <style name="automake:keyword" foreground="#B49AF0" />
+    <style name="automake:lhs" foreground="#D4DEEB" />
+    <style name="automake:prefix" foreground="#B49AF0" />
+    <style name="automake:primary" foreground="#59C9C2" />
+    <style name="automake:secondary" foreground="#B49AF0" />
+    <style name="automake:subst" foreground="#B49AF0" />
+    <style name="automake:target" foreground="#B49AF0" />
+    <style name="awk:builtin-function" foreground="#59C9C2" />
+    <style name="awk:keyword" foreground="#B49AF0" />
+    <style name="awk:pattern" foreground="#B49AF0" />
+    <style name="awk:variable" foreground="#D4DEEB" />
+    <style name="bennugd:boolean" foreground="#98FFB3" />
+    <style name="bennugd:comment" italic="true" foreground="#8293AA" />
+    <style name="bennugd:decimal" foreground="#E7C080" />
+    <style name="bennugd:floating-point" foreground="#E7C080" />
+    <style name="bennugd:hexadecimal" foreground="#E7C080" />
+    <style name="bennugd:identifier" foreground="#D4DEEB" />
+    <style name="bennugd:keywords" foreground="#B49AF0" />
+    <style name="bennugd:operator" foreground="#59C9C2" />
+    <style name="bennugd:preprocessor" foreground="#B49AF0" />
+    <style name="bennugd:types" foreground="#59C9C2" />
+    <style name="bibtex:entry-type" foreground="#B49AF0" />
+    <style name="bibtex:field" foreground="#D4DEEB" />
+    <style name="bibtex:string" foreground="#89C9A6" />
+    <style name="bluespec:annotation" foreground="#64B5F6" />
+    <style name="bluespec:attribute" foreground="#59C9C2" />
+    <style name="bluespec:import-bvi" foreground="#B49AF0" />
+    <style name="bluespec:keyword" foreground="#B49AF0" />
+    <style name="bluespec:system-task" foreground="#B49AF0" />
+    <style name="bluespec:type" foreground="#59C9C2" />
+    <style name="boo:boolean" foreground="#98FFB3" />
+    <style name="boo:builtin" foreground="#59C9C2" />
+    <style name="boo:comment" italic="true" foreground="#8293AA" />
+    <style name="boo:definition" foreground="#B49AF0" />
+    <style name="boo:keyword" foreground="#B49AF0" />
+    <style name="boo:multiline-string" foreground="#89C9A6" />
+    <style name="boo:namespace" foreground="#B49AF0" />
+    <style name="boo:null-value" foreground="#98FFB3" />
+    <style name="boo:number" foreground="#E7C080" />
+    <style name="boo:regex" foreground="#89C9A6" />
+    <style name="boo:special-variable" foreground="#D4DEEB" />
+    <style name="boo:string" foreground="#89C9A6" />
+    <style name="boo:type" foreground="#59C9C2" />
+    <style name="c-sharp:boolean" foreground="#98FFB3" />
+    <style name="c-sharp:char" foreground="#89C9A6" />
+    <style name="c-sharp:comment" italic="true" foreground="#8293AA" />
+    <style name="c-sharp:decimal" foreground="#E7C080" />
+    <style name="c-sharp:error" foreground="#ED7786" />
+    <style name="c-sharp:escaped-character" foreground="#59C9C2" />
+    <style name="c-sharp:format" foreground="#59C9C2" />
+    <style name="c-sharp:hexadecimal" foreground="#E7C080" />
+    <style name="c-sharp:keyword" foreground="#B49AF0" />
+    <style name="c-sharp:null-value" foreground="#98FFB3" />
+    <style name="c-sharp:preprocessor" foreground="#B49AF0" />
+    <style name="c-sharp:real" foreground="#E7C080" />
+    <style name="c-sharp:string" foreground="#89C9A6" />
+    <style name="c-sharp:type" foreground="#59C9C2" />
+    <style name="c:boolean" foreground="#98FFB3" />
+    <style name="c:char" foreground="#89C9A6" />
+    <style name="c:comment" italic="true" foreground="#8293AA" />
+    <style name="c:common-defines" foreground="#98FFB3" />
+    <style name="c:decimal" foreground="#E7C080" />
+    <style name="c:error" foreground="#ED7786" />
+    <style name="c:escaped-character" foreground="#59C9C2" />
+    <style name="c:floating-point" foreground="#E7C080" />
+    <style name="c:hexadecimal" foreground="#E7C080" />
+    <style name="c:included-file" foreground="#89C9A6" />
+    <style name="c:keyword" foreground="#B49AF0" />
+    <style name="c:octal" foreground="#E7C080" />
+    <style name="c:operator" foreground="#59C9C2" />
+    <style name="c:preprocessor" foreground="#B49AF0" />
+    <style name="c:printf" foreground="#59C9C2" />
+    <style name="c:signal-name" foreground="#98FFB3" />
+    <style name="c:standard-stream" foreground="#98FFB3" />
+    <style name="c:storage-class" foreground="#59C9C2" />
+    <style name="c:string" foreground="#89C9A6" />
+    <style name="c:type" foreground="#59C9C2" />
+    <style name="c:type-keyword" foreground="#B49AF0" />
+    <style name="cg:bindings" foreground="#98FFB3" />
+    <style name="cg:boolean" foreground="#98FFB3" />
+    <style name="cg:builtin" foreground="#B49AF0" />
+    <style name="cg:comment" italic="true" foreground="#8293AA" />
+    <style name="cg:decimal" foreground="#E7C080" />
+    <style name="cg:error" foreground="#ED7786" />
+    <style name="cg:escaped-character" foreground="#59C9C2" />
+    <style name="cg:floating-point" foreground="#E7C080" />
+    <style name="cg:function" foreground="#64B5F6" />
+    <style name="cg:hexadecimal" foreground="#E7C080" />
+    <style name="cg:included-file" foreground="#89C9A6" />
+    <style name="cg:keyword" foreground="#B49AF0" />
+    <style name="cg:octal" foreground="#E7C080" />
+    <style name="cg:preprocessor" foreground="#B49AF0" />
+    <style name="cg:storage-class" foreground="#59C9C2" />
+    <style name="cg:swizzle" foreground="#59C9C2" />
+    <style name="cg:type" foreground="#59C9C2" />
+    <style name="changelog:bullet" foreground="#59C9C2" />
+    <style name="changelog:date" foreground="#E7C080" />
+    <style name="changelog:email" foreground="#D4DEEB" />
+    <style name="changelog:file" italic="true" foreground="#8293AA" />
+    <style name="changelog:function" foreground="#64B5F6" />
+    <style name="changelog:name" foreground="#B49AF0" />
+    <style name="changelog:release" foreground="#B49AF0" />
+    <style name="cmake:bracket-argument" foreground="#89C9A6" />
+    <style name="cmake:builtin-command" foreground="#64B5F6" />
+    <style name="cmake:builtin-variable" foreground="#59C9C2" />
+    <style name="cmake:constant" foreground="#98FFB3" />
+    <style name="cmake:control" foreground="#B49AF0" />
+    <style name="cmake:deprecated-builtin-command" foreground="#E7C080" />
+    <style name="cmake:legacy-syntax" foreground="#E7C080" />
+    <style name="cmake:operator" foreground="#59C9C2" />
+    <style name="cmake:quoted-argument" foreground="#89C9A6" />
+    <style name="makefile:variable" foreground="#59C9C2" />
+    <style name="cmake:variable" foreground="#59C9C2" />
+    <style name="cobol:comment" italic="true" foreground="#8293AA" />
+    <style name="cobol:constant" foreground="#98FFB3" />
+    <style name="cobol:error" foreground="#ED7786" />
+    <style name="cobol:keyword" foreground="#B49AF0" />
+    <style name="cobol:number" foreground="#E7C080" />
+    <style name="cobol:operator" foreground="#59C9C2" />
+    <style name="cobol:statement" foreground="#B49AF0" />
+    <style name="cobol:string" foreground="#89C9A6" />
+    <style name="cobol:variable" foreground="#59C9C2" />
+    <style name="commonlisp:boolean" foreground="#98FFB3" />
+    <style name="commonlisp:builtin" foreground="#B49AF0" />
+    <style name="commonlisp:character" foreground="#89C9A6" />
+    <style name="commonlisp:comment" italic="true" foreground="#8293AA" />
+    <style name="commonlisp:constant" foreground="#98FFB3" />
+    <style name="commonlisp:error" foreground="#ED7786" />
+    <style name="commonlisp:format-directive" foreground="#59C9C2" />
+    <style name="commonlisp:keyword" foreground="#59C9C2" />
+    <style name="commonlisp:lambda-list-keyword" foreground="#59C9C2" />
+    <style name="commonlisp:number" foreground="#E7C080" />
+    <style name="commonlisp:operator" foreground="#59C9C2" />
+    <style name="commonlisp:special" foreground="#59C9C2" />
+    <style name="commonlisp:string" foreground="#89C9A6" />
+    <style name="commonlisp:symbol" foreground="#D4DEEB" />
+    <style name="cpp:common-defines" foreground="#98FFB3" />
+    <style name="cpp:keyword" foreground="#B49AF0" />
+    <style name="cpp:raw-string" foreground="#89C9A6" />
+    <style name="cpp:type" foreground="#59C9C2" />
+    <style name="css:at-rule" foreground="#B49AF0" />
+    <style name="css:at-rule-inner-selector" foreground="#D4DEEB" />
+    <style name="css:at-rule-operator" foreground="#B49AF0" />
+    <style name="css:selector-symbol" foreground="#59C9C2" />
+    <style name="css:attribute-selector" foreground="#59C9C2" />
+    <style name="css:attribute-selector-name" foreground="#59C9C2" />
+    <style name="css:attribute-selector-operator" foreground="#59C9C2" />
+    <style name="css:delimiter" foreground="#59C9C2" />
+    <style name="css:block-delimiter" foreground="#59C9C2" />
+    <style name="css:class-selector" foreground="#D4DEEB" />
+    <style name="css:color" foreground="#E7C080" />
+    <style name="css:combinator" foreground="#59C9C2" />
+    <style name="css:comment" italic="true" foreground="#8293AA" />
+    <style name="css:custom-property-name" foreground="#D4DEEB" />
+    <style name="css:dimension" foreground="#E7C080" />
+    <style name="css:error" foreground="#ED7786" />
+    <style name="css:escape" foreground="#59C9C2" />
+    <style name="css:expression" foreground="#E7C080" />
+    <style name="css:function" foreground="#64B5F6" />
+    <style name="css:id-selector" foreground="#B49AF0" />
+    <style name="css:integer" foreground="#E7C080" />
+    <style name="css:keyword" foreground="#98FFB3" />
+    <style name="css:property-name" foreground="#B49AF0" />
+    <style name="css:media-feature" foreground="#B49AF0" />
+    <style name="css:media-feature-value" foreground="#98FFB3" />
+    <style name="css:media-query-operator" foreground="#B49AF0" />
+    <style name="css:media-type" foreground="#B49AF0" />
+    <style name="css:modifier" foreground="#B49AF0" />
+    <style name="css:namespace" foreground="#B49AF0" />
+    <style name="css:namespace-qualifier" foreground="#59C9C2" />
+    <style name="css:number" foreground="#E7C080" />
+    <style name="css:pseudo-selector" foreground="#64B5F6" />
+    <style name="css:pseudo-class" foreground="#64B5F6" />
+    <style name="css:pseudo-element" foreground="#64B5F6" />
+    <style name="css:pseudo-selector-operator" foreground="#64B5F6" />
+    <style name="css:string" foreground="#89C9A6" />
+    <style name="css:test-delimiter" foreground="#59C9C2" />
+    <style name="css:type-selector" foreground="#59C9C2" />
+    <style name="css:universal-selector" foreground="#59C9C2" />
+    <style name="css:vendor-specific" foreground="#E7C080" />
+    <style name="csv:decimal" foreground="#E7C080" />
+    <style name="csv:escaped-character" foreground="#59C9C2" />
+    <style name="csv:floating-point" foreground="#E7C080" />
+    <style name="csv:string" foreground="#89C9A6" />
+    <style name="cuda:cuda-device" foreground="#64B5F6" />
+    <style name="cuda:cuda-global" foreground="#64B5F6" />
+    <style name="cuda:data-type" foreground="#59C9C2" />
+    <style name="cuda:global-var" foreground="#D4DEEB" />
+    <style name="cuda:keyword" foreground="#B49AF0" />
+    <style name="d:binary" foreground="#E7C080" />
+    <style name="d:boolean" foreground="#98FFB3" />
+    <style name="d:comment" italic="true" foreground="#8293AA" />
+    <style name="d:decimal" foreground="#E7C080" />
+    <style name="d:error" foreground="#ED7786" />
+    <style name="d:floating-point" foreground="#E7C080" />
+    <style name="d:hexadecimal" foreground="#E7C080" />
+    <style name="d:keyword" foreground="#B49AF0" />
+    <style name="d:null-value" foreground="#98FFB3" />
+    <style name="d:octal" foreground="#E7C080" />
+    <style name="d:special-token" foreground="#B49AF0" />
+    <style name="d:string" foreground="#89C9A6" />
+    <style name="d:type" foreground="#59C9C2" />
+    <style name="dart:bool" foreground="#98FFB3" />
+    <style name="dart:comment" italic="true" foreground="#8293AA" />
+    <style name="dart:error" foreground="#ED7786" />
+    <style name="dart:escaped" foreground="#59C9C2" />
+    <style name="dart:external" foreground="#B49AF0" />
+    <style name="dart:keyword" foreground="#B49AF0" />
+    <style name="dart:null-value" foreground="#98FFB3" />
+    <style name="dart:num" foreground="#E7C080" />
+    <style name="dart:string" foreground="#89C9A6" />
+    <style name="dart:type" foreground="#59C9C2" />
+    <style name="desktop:boolean" foreground="#E7C080" />
+    <style name="desktop:category-additional" foreground="#D4DEEB" />
+    <style name="desktop:category-main" foreground="#ED7786" />
+    <style name="desktop:category-reserved" foreground="#E7C080" />
+    <style name="desktop:encoding" foreground="#E7C080" />
+    <style name="desktop:exec-parameter" foreground="#E7C080" />
+    <style name="desktop:group" foreground="#B49AF0" />
+    <style name="desktop:key" foreground="#59C9C2" />
+    <style name="desktop:language" foreground="#E7C080" />
+    <style name="desktop:number" foreground="#E7C080" />
+    <style name="diff:ignore" italic="true" foreground="#8293AA" />
+    <style name="docbook:formatting-elements" foreground="#B49AF0" />
+    <style name="docbook:gui-elements" foreground="#B49AF0" />
+    <style name="docbook:header-elements" foreground="#B49AF0" />
+    <style name="docbook:structural-elements" foreground="#B49AF0" />
+    <style name="docker:alias-definition" foreground="#D4DEEB" />
+    <style name="docker:comment" italic="true" foreground="#8293AA" />
+    <style name="docker:keyword" foreground="#B49AF0" />
+    <style name="docker:number" foreground="#E7C080" />
+    <style name="docker:operator" foreground="#59C9C2" />
+    <style name="docker:string" foreground="#89C9A6" />
+    <style name="docker:user" foreground="#D4DEEB" />
+    <style name="docker:variable" foreground="#59C9C2" />
+    <style name="docker:variable-definition" foreground="#59C9C2" />
+    <style name="dosbatch:commands" foreground="#B49AF0" />
+    <style name="dosbatch:comment" italic="true" foreground="#8293AA" />
+    <style name="dosbatch:keyword" foreground="#B49AF0" />
+    <style name="dosbatch:string" foreground="#89C9A6" />
+    <style name="dot:attribute" foreground="#59C9C2" />
+    <style name="dot:comment" italic="true" foreground="#8293AA" />
+    <style name="dot:error" foreground="#ED7786" />
+    <style name="dot:keyword" foreground="#B49AF0" />
+    <style name="dpatch:patch-start" foreground="#B49AF0" />
+    <style name="xml:doctype" foreground="#B49AF0" />
+    <style name="dtd:decl" foreground="#B49AF0" />
+    <style name="xml:entity" foreground="#B49AF0" />
+    <style name="dtd:entity" foreground="#B49AF0" />
+    <style name="xml:error" foreground="#ED7786" />
+    <style name="dtd:error" foreground="#ED7786" />
+    <style name="xml:attribute-value" foreground="#89C9A6" />
+    <style name="dtd:quoted-value" foreground="#89C9A6" />
+    <style name="dtl:boolean" foreground="#98FFB3" />
+    <style name="dtl:comment" italic="true" foreground="#8293AA" />
+    <style name="dtl:decimal" foreground="#E7C080" />
+    <style name="dtl:error" foreground="#ED7786" />
+    <style name="dtl:escape" foreground="#59C9C2" />
+    <style name="dtl:filters" foreground="#64B5F6" />
+    <style name="dtl:floating-point" foreground="#E7C080" />
+    <style name="dtl:hexadecimal" foreground="#E7C080" />
+    <style name="dtl:keyword" foreground="#B49AF0" />
+    <style name="dtl:octal" foreground="#E7C080" />
+    <style name="dtl:string" foreground="#89C9A6" />
+    <style name="eiffel:assertion" foreground="#B49AF0" />
+    <style name="eiffel:boolean" foreground="#98FFB3" />
+    <style name="eiffel:comment" italic="true" foreground="#8293AA" />
+    <style name="eiffel:debug" foreground="#B49AF0" />
+    <style name="eiffel:decimal" foreground="#E7C080" />
+    <style name="eiffel:design-by-contract" foreground="#B49AF0" />
+    <style name="eiffel:escaped-character" foreground="#59C9C2" />
+    <style name="eiffel:exception-handling" foreground="#B49AF0" />
+    <style name="eiffel:hexadecimal" foreground="#E7C080" />
+    <style name="eiffel:keyword" foreground="#B49AF0" />
+    <style name="eiffel:predefined-variable" foreground="#59C9C2" />
+    <style name="eiffel:string" foreground="#89C9A6" />
+    <style name="eiffel:type" foreground="#59C9C2" />
+    <style name="eiffel:void" foreground="#98FFB3" />
+    <style name="erb:erb-comment" italic="true" foreground="#8293AA" />
+    <style name="erb:preprocessor" foreground="#B49AF0" />
+    <style name="erlang:atom" foreground="#59C9C2" />
+    <style name="erlang:base-n-integer" foreground="#E7C080" />
+    <style name="erlang:builtin" foreground="#59C9C2" />
+    <style name="erlang:character" foreground="#89C9A6" />
+    <style name="erlang:comment" italic="true" foreground="#8293AA" />
+    <style name="erlang:compiler-directive" foreground="#B49AF0" />
+    <style name="erlang:decimal" foreground="#E7C080" />
+    <style name="erlang:floating-point" foreground="#E7C080" />
+    <style name="erlang:keyword" foreground="#B49AF0" />
+    <style name="erlang:operator" foreground="#59C9C2" />
+    <style name="erlang:string" foreground="#89C9A6" />
+    <style name="fcl:block" foreground="#64B5F6" />
+    <style name="fcl:comment" italic="true" foreground="#8293AA" />
+    <style name="fcl:decimal" foreground="#E7C080" />
+    <style name="fcl:floating-point" foreground="#E7C080" />
+    <style name="fcl:keyword" foreground="#B49AF0" />
+    <style name="fcl:reserved-constant" foreground="#98FFB3" />
+    <style name="fish:comment" italic="true" foreground="#8293AA" />
+    <style name="fish:common-command" foreground="#B49AF0" />
+    <style name="fish:function" foreground="#64B5F6" />
+    <style name="fish:here-doc-bound" foreground="#B49AF0" />
+    <style name="fish:keyword" foreground="#B49AF0" />
+    <style name="fish:others" foreground="#B49AF0" />
+    <style name="fish:string" foreground="#89C9A6" />
+    <style name="fish:subshell" foreground="#B49AF0" />
+    <style name="fish:variable" foreground="#59C9C2" />
+    <style name="fish:variable-definition" foreground="#59C9C2" />
+    <style name="forth:comment" italic="true" foreground="#8293AA" />
+    <style name="forth:compiler" foreground="#D4DEEB" />
+    <style name="forth:debugs" italic="true" foreground="#8293AA" />
+    <style name="forth:error" foreground="#ED7786" />
+    <style name="forth:keyword" foreground="#B49AF0" />
+    <style name="forth:number" foreground="#E7C080" />
+    <style name="forth:preprocessor" foreground="#B49AF0" />
+    <style name="forth:string" foreground="#89C9A6" />
+    <style name="forth:type" foreground="#59C9C2" />
+    <style name="fortran:boz-literal" foreground="#E7C080" />
+    <style name="fortran:comment" italic="true" foreground="#8293AA" />
+    <style name="fortran:decimal" foreground="#E7C080" />
+    <style name="fortran:escaped-character" foreground="#59C9C2" />
+    <style name="fortran:floating-point" foreground="#E7C080" />
+    <style name="fortran:included-file" foreground="#89C9A6" />
+    <style name="fortran:intrinsic" foreground="#59C9C2" />
+    <style name="fortran:keyword" foreground="#B49AF0" />
+    <style name="fortran:openmp-directives" foreground="#B49AF0" />
+    <style name="fortran:preprocessor" foreground="#B49AF0" />
+    <style name="fortran:string" foreground="#89C9A6" />
+    <style name="fortran:type" foreground="#59C9C2" />
+    <style name="fsharp:base-n-integer" foreground="#E7C080" />
+    <style name="fsharp:boolean" foreground="#98FFB3" />
+    <style name="fsharp:comment" italic="true" foreground="#8293AA" />
+    <style name="fsharp:decimal" foreground="#E7C080" />
+    <style name="fsharp:escape" foreground="#59C9C2" />
+    <style name="fsharp:floating-point" foreground="#E7C080" />
+    <style name="fsharp:fun-keyword" foreground="#B49AF0" />
+    <style name="fsharp:keyword" foreground="#B49AF0" />
+    <style name="fsharp:label" foreground="#59C9C2" />
+    <style name="fsharp:meta-keyword" foreground="#B49AF0" />
+    <style name="fsharp:module" foreground="#59C9C2" />
+    <style name="fsharp:null-value" foreground="#98FFB3" />
+    <style name="fsharp:poly-variant" foreground="#59C9C2" />
+    <style name="fsharp:preprocessor" foreground="#B49AF0" />
+    <style name="fsharp:string" foreground="#89C9A6" />
+    <style name="fsharp:type" foreground="#59C9C2" />
+    <style name="fsharp:type-var" foreground="#59C9C2" />
+    <style name="fsharp:variant" foreground="#59C9C2" />
+    <style name="ftl:attribute" foreground="#59C9C2" />
+    <style name="ftl:function" foreground="#64B5F6" />
+    <style name="ftl:quoted-text" foreground="#89C9A6" />
+    <style name="ftl:term" foreground="#B49AF0" />
+    <style name="ftl:variable" foreground="#D4DEEB" />
+    <style name="ftl:variant-key" foreground="#D4DEEB" />
+    <style name="gap:character" foreground="#89C9A6" />
+    <style name="gap:comment" italic="true" foreground="#8293AA" />
+    <style name="gap:decimal" foreground="#E7C080" />
+    <style name="gap:function" foreground="#64B5F6" />
+    <style name="gap:keyword" foreground="#B49AF0" />
+    <style name="gdb-log:address" foreground="#E7C080" />
+    <style name="gdb-log:filename" foreground="#B49AF0" />
+    <style name="gdb-log:frame-number" foreground="#B49AF0" />
+    <style name="gdb-log:function" foreground="#64B5F6" />
+    <style name="gdb-log:incomplete-sequence" foreground="#98FFB3" />
+    <style name="gdb-log:optimized-out" foreground="#98FFB3" />
+    <style name="gdb-log:prompt" italic="true" foreground="#8293AA" />
+    <style name="gdb-log:string" foreground="#89C9A6" />
+    <style name="gdb-log:thread-action" italic="true" foreground="#8293AA" />
+    <style name="gdb-log:thread-header" foreground="#B49AF0" />
+    <style name="gdscript:base-n-integer" foreground="#E7C080" />
+    <style name="gdscript:boolean" foreground="#98FFB3" />
+    <style name="gdscript:builtin-constant" foreground="#98FFB3" />
+    <style name="gdscript:builtin-function" foreground="#59C9C2" />
+    <style name="gdscript:builtin-object" foreground="#59C9C2" />
+    <style name="gdscript:complex" foreground="#E7C080" />
+    <style name="gdscript:decimal" foreground="#E7C080" />
+    <style name="gdscript:escaped-char" foreground="#59C9C2" />
+    <style name="gdscript:floating-point" foreground="#E7C080" />
+    <style name="gdscript:format" foreground="#89C9A6" />
+    <style name="gdscript:keyword" foreground="#B49AF0" />
+    <style name="gdscript:module-handler" foreground="#B49AF0" />
+    <style name="gdscript:multiline-string" foreground="#89C9A6" />
+    <style name="gdscript:special-variable" foreground="#D4DEEB" />
+    <style name="gdscript:string" foreground="#89C9A6" />
+    <style name="gdscript:string-conversion" foreground="#89C9A6" />
+    <style name="genie:boolean" foreground="#98FFB3" />
+    <style name="genie:builtin" foreground="#59C9C2" />
+    <style name="genie:comment" italic="true" foreground="#8293AA" />
+    <style name="genie:definition" foreground="#B49AF0" />
+    <style name="genie:keyword" foreground="#B49AF0" />
+    <style name="genie:multiline-string" foreground="#89C9A6" />
+    <style name="genie:namespace" foreground="#B49AF0" />
+    <style name="genie:null-value" foreground="#98FFB3" />
+    <style name="genie:number" foreground="#E7C080" />
+    <style name="genie:printf" foreground="#59C9C2" />
+    <style name="genie:regex" foreground="#89C9A6" />
+    <style name="genie:special-variable" foreground="#D4DEEB" />
+    <style name="genie:string" foreground="#89C9A6" />
+    <style name="genie:type" foreground="#59C9C2" />
+    <style name="gettext-translation:comment" italic="true" foreground="#8293AA" />
+    <style name="gettext-translation:format" foreground="#59C9C2" />
+    <style name="gettext-translation:fuzzy" foreground="#E7C080" />
+    <style name="gettext-translation:keyword" foreground="#B49AF0" />
+    <style name="gettext-translation:location" italic="true" foreground="#8293AA" />
+    <style name="gettext-translation:string" foreground="#89C9A6" />
+    <style name="glsl:builtin-constant" foreground="#98FFB3" />
+    <style name="glsl:builtin-function" foreground="#59C9C2" />
+    <style name="glsl:builtin-variable" foreground="#D4DEEB" />
+    <style name="glsl:keyword" foreground="#B49AF0" />
+    <style name="glsl:preprocessor" foreground="#B49AF0" />
+    <style name="glsl:type" foreground="#59C9C2" />
+    <style name="go:binary" foreground="#E7C080" />
+    <style name="go:boolean" foreground="#98FFB3" />
+    <style name="go:builtin-constant" foreground="#98FFB3" />
+    <style name="go:builtin-function" foreground="#59C9C2" />
+    <style name="go:char" foreground="#89C9A6" />
+    <style name="go:comment" italic="true" foreground="#8293AA" />
+    <style name="go:decimal" foreground="#E7C080" />
+    <style name="go:error" foreground="#ED7786" />
+    <style name="go:escaped-character" foreground="#59C9C2" />
+    <style name="go:external" foreground="#B49AF0" />
+    <style name="go:floating-point" foreground="#E7C080" />
+    <style name="go:hexadecimal" foreground="#E7C080" />
+    <style name="go:imaginary" foreground="#E7C080" />
+    <style name="go:keyword" foreground="#B49AF0" />
+    <style name="go:octal" foreground="#E7C080" />
+    <style name="go:printf" foreground="#59C9C2" />
+    <style name="go:string" foreground="#89C9A6" />
+    <style name="go:type" foreground="#59C9C2" />
+    <style name="gradle:declaration" foreground="#59C9C2" />
+    <style name="groovy:boolean" foreground="#98FFB3" />
+    <style name="groovy:comment" italic="true" foreground="#8293AA" />
+    <style name="groovy:declaration" foreground="#59C9C2" />
+    <style name="groovy:escaped-character" foreground="#59C9C2" />
+    <style name="groovy:external" foreground="#B49AF0" />
+    <style name="groovy:interpolated" foreground="#D4DEEB" />
+    <style name="groovy:interpolation" foreground="#59C9C2" />
+    <style name="groovy:keyword" foreground="#B49AF0" />
+    <style name="groovy:null-value" foreground="#98FFB3" />
+    <style name="groovy:number" foreground="#E7C080" />
+    <style name="groovy:operator" foreground="#59C9C2" />
+    <style name="groovy:scope-declaration" foreground="#59C9C2" />
+    <style name="groovy:storage-class" foreground="#59C9C2" />
+    <style name="groovy:string" foreground="#89C9A6" />
+    <style name="groovy:type" foreground="#59C9C2" />
+    <style name="gtk-doc:constant" foreground="#59C9C2" />
+    <style name="gtk-doc:deprecated" foreground="#59C9C2" />
+    <style name="gtk-doc:function" foreground="#59C9C2" />
+    <style name="gtk-doc:function-name" foreground="#59C9C2" />
+    <style name="gtk-doc:inline-docs-section" italic="true" foreground="#8293AA" />
+    <style name="gtk-doc:parameter" foreground="#59C9C2" />
+    <style name="gtk-doc:property-name" foreground="#59C9C2" />
+    <style name="gtk-doc:return" foreground="#59C9C2" />
+    <style name="gtk-doc:signal-name" foreground="#59C9C2" />
+    <style name="gtk-doc:since" foreground="#59C9C2" />
+    <style name="gtk-doc:type" foreground="#59C9C2" />
+    <style name="gtkrc:boolean-value" foreground="#98FFB3" />
+    <style name="gtkrc:comment" italic="true" foreground="#8293AA" />
+    <style name="gtkrc:decimal" foreground="#E7C080" />
+    <style name="gtkrc:include-directive" foreground="#B49AF0" />
+    <style name="gtkrc:keyword" foreground="#B49AF0" />
+    <style name="gtkrc:state" foreground="#98FFB3" />
+    <style name="gtkrc:string" foreground="#89C9A6" />
+    <style name="gtkrc:variable" foreground="#59C9C2" />
+    <style name="haddock:anchor" foreground="#59C9C2" />
+    <style name="haddock:definition" foreground="#59C9C2" />
+    <style name="haddock:directive" foreground="#59C9C2" />
+    <style name="haddock:emphasis" foreground="#59C9C2" />
+    <style name="haddock:enumerated" foreground="#59C9C2" />
+    <style name="haddock:escape" foreground="#59C9C2" />
+    <style name="haddock:identifier" foreground="#59C9C2" />
+    <style name="haddock:itemized" foreground="#59C9C2" />
+    <style name="haddock:markup" italic="true" foreground="#8293AA" />
+    <style name="haddock:module" foreground="#59C9C2" />
+    <style name="haddock:property" foreground="#59C9C2" />
+    <style name="haddock:url" underline="single" foreground="#64B5F6" />
+    <style name="haskell:char-escape" foreground="#59C9C2" />
+    <style name="haskell:character" foreground="#89C9A6" />
+    <style name="haskell:comment" italic="true" foreground="#8293AA" />
+    <style name="haskell:decimal" foreground="#E7C080" />
+    <style name="haskell:float" foreground="#E7C080" />
+    <style name="haskell:hexadecimal" foreground="#E7C080" />
+    <style name="haskell:keyword" foreground="#B49AF0" />
+    <style name="haskell:octal" foreground="#E7C080" />
+    <style name="haskell:preprocessor" foreground="#B49AF0" />
+    <style name="haskell:string" foreground="#89C9A6" />
+    <style name="haskell:type" foreground="#59C9C2" />
+    <style name="haskell:variable" foreground="#D4DEEB" />
+    <style name="haxe:boolean" foreground="#98FFB3" />
+    <style name="haxe:comment" italic="true" foreground="#8293AA" />
+    <style name="haxe:declaration" foreground="#59C9C2" />
+    <style name="haxe:error" foreground="#ED7786" />
+    <style name="haxe:escaped-char" foreground="#59C9C2" />
+    <style name="haxe:external" foreground="#B49AF0" />
+    <style name="haxe:identifier-prefix" foreground="#E7C080" />
+    <style name="haxe:keyword" foreground="#B49AF0" />
+    <style name="haxe:macro" foreground="#B49AF0" />
+    <style name="haxe:metadata" foreground="#98FFB3" />
+    <style name="haxe:null-value" foreground="#98FFB3" />
+    <style name="haxe:number" foreground="#E7C080" />
+    <style name="haxe:preprocessor" foreground="#B49AF0" />
+    <style name="haxe:scope" foreground="#59C9C2" />
+    <style name="haxe:storage-class" foreground="#59C9C2" />
+    <style name="haxe:string" foreground="#89C9A6" />
+    <style name="haxe:type" foreground="#D4DEEB" />
+    <style name="xml:attribute-name" foreground="#59C9C2" />
+    <style name="html:attrib-name" foreground="#59C9C2" />
+    <style name="html:attrib-value" foreground="#89C9A6" />
+    <style name="xml:comment" italic="true" foreground="#8293AA" />
+    <style name="html:comment" italic="true" foreground="#8293AA" />
+    <style name="html:dtd" foreground="#B49AF0" />
+    <style name="html:error" foreground="#ED7786" />
+    <style name="html:h1" bold="true" foreground="#64B5F6" />
+    <style name="html:h2" bold="true" foreground="#64B5F6" />
+    <style name="html:h3" bold="true" foreground="#64B5F6" />
+    <style name="html:h4" bold="true" foreground="#64B5F6" />
+    <style name="html:h5" bold="true" foreground="#64B5F6" />
+    <style name="html:h6" bold="true" foreground="#64B5F6" />
+    <style name="xml:element-name" foreground="#D4DEEB" />
+    <style name="html:tag" foreground="#D4DEEB" />
+    <style name="html:title" bold="true" foreground="#64B5F6" />
+    <style name="idl-exelis:comment" italic="true" foreground="#8293AA" />
+    <style name="idl-exelis:decimal" foreground="#E7C080" />
+    <style name="idl-exelis:floating-point" foreground="#E7C080" />
+    <style name="idl-exelis:function" foreground="#64B5F6" />
+    <style name="idl-exelis:keyword" foreground="#B49AF0" />
+    <style name="idl-exelis:preprocessor" foreground="#B49AF0" />
+    <style name="idl-exelis:string" foreground="#89C9A6" />
+    <style name="idl-exelis:type" foreground="#59C9C2" />
+    <style name="idl:comment" italic="true" foreground="#8293AA" />
+    <style name="idl:keyword" foreground="#B49AF0" />
+    <style name="idl:preprocessor" foreground="#B49AF0" />
+    <style name="idl:string" foreground="#89C9A6" />
+    <style name="idl:type" foreground="#59C9C2" />
+    <style name="imagej:boolean" foreground="#98FFB3" />
+    <style name="imagej:builtin" foreground="#59C9C2" />
+    <style name="imagej:command" foreground="#64B5F6" />
+    <style name="imagej:escape" foreground="#59C9C2" />
+    <style name="imagej:keyword" foreground="#B49AF0" />
+    <style name="imagej:operator" foreground="#59C9C2" />
+    <style name="imagej:storage-type" foreground="#59C9C2" />
+    <style name="imagej:string" foreground="#89C9A6" />
+    <style name="ini:boolean-value" foreground="#98FFB3" />
+    <style name="ini:comment" italic="true" foreground="#8293AA" />
+    <style name="ini:decimal" foreground="#E7C080" />
+    <style name="ini:floating-point" foreground="#E7C080" />
+    <style name="ini:keyword" foreground="#B49AF0" />
+    <style name="ini:non-standard-key" foreground="#59C9C2" />
+    <style name="ini:string" foreground="#89C9A6" />
+    <style name="ini:variable" foreground="#59C9C2" />
+    <style name="j:adverb" foreground="#D4DEEB" />
+    <style name="j:comment" italic="true" foreground="#8293AA" />
+    <style name="j:conjunction" foreground="#D4DEEB" />
+    <style name="j:control" foreground="#B49AF0" />
+    <style name="j:error" foreground="#ED7786" />
+    <style name="j:exparg" foreground="#59C9C2" />
+    <style name="j:global" foreground="#59C9C2" />
+    <style name="j:labtext" foreground="#B49AF0" />
+    <style name="j:local" foreground="#59C9C2" />
+    <style name="j:noun" foreground="#98FFB3" />
+    <style name="j:noundef" foreground="#89C9A6" />
+    <style name="j:number" foreground="#E7C080" />
+    <style name="j:parens" foreground="#B49AF0" />
+    <style name="j:primitive" foreground="#D4DEEB" />
+    <style name="j:string" foreground="#89C9A6" />
+    <style name="j:verb" foreground="#D4DEEB" />
+    <style name="jade:attribute-name" foreground="#59C9C2" />
+    <style name="jade:attribute-value" foreground="#89C9A6" />
+    <style name="jade:comment" italic="true" foreground="#8293AA" />
+    <style name="jade:doctype" foreground="#B49AF0" />
+    <style name="jade:element-name" foreground="#D4DEEB" />
+    <style name="jade:entity" foreground="#B49AF0" />
+    <style name="jade:error" foreground="#ED7786" />
+    <style name="jade:processing-instruction" foreground="#B49AF0" />
+    <style name="jade:tags" foreground="#B49AF0" />
+    <style name="java:boolean" foreground="#98FFB3" />
+    <style name="java:char" foreground="#89C9A6" />
+    <style name="java:comment" italic="true" foreground="#8293AA" />
+    <style name="java:declaration" foreground="#59C9C2" />
+    <style name="java:escaped-character" foreground="#59C9C2" />
+    <style name="java:external" foreground="#B49AF0" />
+    <style name="java:keyword" foreground="#B49AF0" />
+    <style name="java:null-value" foreground="#98FFB3" />
+    <style name="java:number" foreground="#E7C080" />
+    <style name="java:reserved" foreground="#ED7786" />
+    <style name="java:scope-declaration" foreground="#59C9C2" />
+    <style name="java:storage-class" foreground="#59C9C2" />
+    <style name="java:string" foreground="#89C9A6" />
+    <style name="java:type" foreground="#59C9C2" />
+    <style name="js:array-literal" foreground="#98FFB3" />
+    <style name="js:base-n-integer" foreground="#E7C080" />
+    <style name="js:binary-integer" foreground="#E7C080" />
+    <style name="js:binary-operator" foreground="#59C9C2" />
+    <style name="js:block-statement" foreground="#B49AF0" />
+    <style name="js:boolean" foreground="#98FFB3" />
+    <style name="js:break-statement" foreground="#B49AF0" />
+    <style name="js:built-in-constructor" foreground="#59C9C2" />
+    <style name="js:built-in-function" foreground="#59C9C2" />
+    <style name="js:built-in-method" foreground="#59C9C2" />
+    <style name="js:built-in-object" foreground="#59C9C2" />
+    <style name="js:built-in-property" foreground="#B49AF0" />
+    <style name="js:built-in-value" foreground="#98FFB3" />
+    <style name="js:class-expression" foreground="#59C9C2" />
+    <style name="js:comma-operator" foreground="#59C9C2" />
+    <style name="js:comment" italic="true" foreground="#8293AA" />
+    <style name="js:continue-statement" foreground="#B49AF0" />
+    <style name="js:debugger-statement" foreground="#B49AF0" />
+    <style name="js:decimal" foreground="#E7C080" />
+    <style name="js:directive" foreground="#B49AF0" />
+    <style name="js:doc-comment" italic="true" foreground="#8293AA" />
+    <style name="js:else-statement" foreground="#B49AF0" />
+    <style name="js:error" foreground="#ED7786" />
+    <style name="js:escape" foreground="#59C9C2" />
+    <style name="js:expression-statement" foreground="#B49AF0" />
+    <style name="js:for-statement" foreground="#B49AF0" />
+    <style name="js:function-expression" foreground="#64B5F6" />
+    <style name="js:grouping-operator" foreground="#59C9C2" />
+    <style name="js:hex-integer" foreground="#E7C080" />
+    <style name="js:identifier" foreground="#D4DEEB" />
+    <style name="js:if-statement" foreground="#B49AF0" />
+    <style name="js:string" foreground="#89C9A6" />
+    <style name="js:included-file" foreground="#89C9A6" />
+    <style name="js:increment-decrement-operator" foreground="#59C9C2" />
+    <style name="js:keyword" foreground="#B49AF0" />
+    <style name="js:label-statement" foreground="#B49AF0" />
+    <style name="js:null-value" foreground="#98FFB3" />
+    <style name="js:object-literal" foreground="#98FFB3" />
+    <style name="js:octal-integer" foreground="#E7C080" />
+    <style name="js:regex" foreground="#89C9A6" />
+    <style name="js:regex-class" foreground="#59C9C2" />
+    <style name="js:regex-flag" foreground="#98FFB3" />
+    <style name="js:regex-group" foreground="#D4DEEB" />
+    <style name="js:reserved-word" foreground="#ED7786" />
+    <style name="js:return-statement" foreground="#B49AF0" />
+    <style name="js:switch-statement" foreground="#B49AF0" />
+    <style name="js:template-literal" foreground="#89C9A6" />
+    <style name="js:template-placeholder" foreground="#B49AF0" />
+    <style name="js:ternary-operator" foreground="#59C9C2" />
+    <style name="js:throw-statement" foreground="#B49AF0" />
+    <style name="js:try-catch-statement" foreground="#B49AF0" />
+    <style name="js:unary-operator" foreground="#59C9C2" />
+    <style name="js:variable-declaration" foreground="#D4DEEB" />
+    <style name="js:while-statement" foreground="#B49AF0" />
+    <style name="js:with-statement" foreground="#B49AF0" />
+    <style name="jsdoc:argument" foreground="#59C9C2" />
+    <style name="jsdoc:block-tag" foreground="#59C9C2" />
+    <style name="jsdoc:event" foreground="#59C9C2" />
+    <style name="jsdoc:inline-tag" foreground="#59C9C2" />
+    <style name="jsdoc:keyword" foreground="#59C9C2" />
+    <style name="jsdoc:namepath" foreground="#59C9C2" />
+    <style name="jsdoc:note" foreground="#E7C080" />
+    <style name="jsdoc:type" foreground="#59C9C2" />
+    <style name="jsx:attribute-expression" foreground="#91CCFF" />
+    <style name="jsx:element" foreground="#59C9C2" />
+    <style name="jsx:spread-attribute" foreground="#91CCFF" />
+    <style name="julia:boolean" foreground="#98FFB3" />
+    <style name="julia:builtin-function" foreground="#59C9C2" />
+    <style name="julia:character" foreground="#89C9A6" />
+    <style name="julia:comment" italic="true" foreground="#8293AA" />
+    <style name="julia:external-command" foreground="#98FFB3" />
+    <style name="julia:keyword" foreground="#B49AF0" />
+    <style name="julia:macro" foreground="#B49AF0" />
+    <style name="julia:math-constant" foreground="#98FFB3" />
+    <style name="julia:module" foreground="#59C9C2" />
+    <style name="julia:number" foreground="#E7C080" />
+    <style name="julia:operator" foreground="#59C9C2" />
+    <style name="julia:special-constant" foreground="#98FFB3" />
+    <style name="julia:string" foreground="#89C9A6" />
+    <style name="julia:type" foreground="#59C9C2" />
+    <style name="kotlin:builtin" foreground="#59C9C2" />
+    <style name="kotlin:comment" italic="true" foreground="#8293AA" />
+    <style name="kotlin:declaration" foreground="#59C9C2" />
+    <style name="kotlin:error" foreground="#ED7786" />
+    <style name="kotlin:escaped-character" foreground="#59C9C2" />
+    <style name="kotlin:external" foreground="#B49AF0" />
+    <style name="kotlin:identifier" foreground="#D4DEEB" />
+    <style name="kotlin:interpolated" foreground="#D4DEEB" />
+    <style name="kotlin:keyword" foreground="#B49AF0" />
+    <style name="kotlin:modifier" foreground="#59C9C2" />
+    <style name="kotlin:number" foreground="#E7C080" />
+    <style name="kotlin:operator" foreground="#59C9C2" />
+    <style name="kotlin:special" foreground="#98FFB3" />
+    <style name="kotlin:string" foreground="#89C9A6" />
+    <style name="kotlin:type" foreground="#D4DEEB" />
+    <style name="latex:chapter" bold="true" foreground="#64B5F6" />
+    <style name="latex:command" foreground="#B49AF0" />
+    <style name="latex:comment" italic="true" foreground="#8293AA" />
+    <style name="latex:common-commands" foreground="#B49AF0" />
+    <style name="latex:display-math" foreground="#89C9A6" />
+    <style name="latex:include" foreground="#B49AF0" />
+    <style name="latex:inline-math" foreground="#89C9A6" />
+    <style name="latex:math" foreground="#89C9A6" />
+    <style name="latex:math-boundary" foreground="#89C9A6" />
+    <style name="latex:paragraph" bold="true" foreground="#64B5F6" />
+    <style name="latex:part" bold="true" foreground="#64B5F6" />
+    <style name="latex:section" bold="true" foreground="#64B5F6" />
+    <style name="latex:special-char" foreground="#59C9C2" />
+    <style name="latex:subparagraph" bold="true" foreground="#64B5F6" />
+    <style name="latex:subsection" bold="true" foreground="#64B5F6" />
+    <style name="latex:subsubsection" bold="true" foreground="#64B5F6" />
+    <style name="latex:verbatim" italic="true" foreground="#8293AA" />
+    <style name="lean:boolean" foreground="#98FFB3" />
+    <style name="lean:character" foreground="#89C9A6" />
+    <style name="lean:command" foreground="#B49AF0" />
+    <style name="lean:comment" italic="true" foreground="#8293AA" />
+    <style name="lean:escaped-character" foreground="#59C9C2" />
+    <style name="lean:keyword" foreground="#B49AF0" />
+    <style name="lean:numeric" foreground="#E7C080" />
+    <style name="lean:string" foreground="#89C9A6" />
+    <style name="less:boolean" foreground="#98FFB3" />
+    <style name="less:built-in-variable" foreground="#59C9C2" />
+    <style name="less:group-delimiter" foreground="#59C9C2" />
+    <style name="less:guard-operator" foreground="#B49AF0" />
+    <style name="less:mixin-parameters-delimiter" foreground="#59C9C2" />
+    <style name="less:operator-symbol" foreground="#59C9C2" />
+    <style name="less:selector-fragment" foreground="#59C9C2" />
+    <style name="less:variable" foreground="#D4DEEB" />
+    <style name="lex:expression" foreground="#59C9C2" />
+    <style name="lex:keyword" foreground="#B49AF0" />
+    <style name="lex:regexp" foreground="#D4DEEB" />
+    <style name="lex:token" foreground="#B49AF0" />
+    <style name="libtool:constant" foreground="#98FFB3" />
+    <style name="libtool:boolean" foreground="#98FFB3" />
+    <style name="llvm:boolean" foreground="#98FFB3" />
+    <style name="llvm:comment" italic="true" foreground="#8293AA" />
+    <style name="llvm:constant" foreground="#98FFB3" />
+    <style name="llvm:function" foreground="#64B5F6" />
+    <style name="llvm:identifier" foreground="#D4DEEB" />
+    <style name="llvm:keyword" foreground="#B49AF0" />
+    <style name="llvm:number" foreground="#E7C080" />
+    <style name="llvm:string" foreground="#89C9A6" />
+    <style name="llvm:type" foreground="#59C9C2" />
+    <style name="llvm:variable" foreground="#D4DEEB" />
+    <style name="logcat:comment" italic="true" foreground="#8293AA" />
+    <style name="logcat:debug" italic="true" foreground="#8293AA" />
+    <style name="logcat:error" foreground="#E7C080" />
+    <style name="logcat:fatal" foreground="#ED7786" />
+    <style name="logcat:info" foreground="#89C9A6" />
+    <style name="logcat:others" italic="true" foreground="#8293AA" />
+    <style name="logcat:verbose" foreground="#D4DEEB" />
+    <style name="logcat:warning" foreground="#B49AF0" />
+    <style name="logtalk:built-in" foreground="#B49AF0" />
+    <style name="logtalk:comment" italic="true" foreground="#8293AA" />
+    <style name="logtalk:directive" foreground="#B49AF0" />
+    <style name="logtalk:entity" foreground="#59C9C2" />
+    <style name="logtalk:error" foreground="#ED7786" />
+    <style name="logtalk:escaped-character" foreground="#59C9C2" />
+    <style name="logtalk:number" foreground="#E7C080" />
+    <style name="logtalk:operator" foreground="#59C9C2" />
+    <style name="logtalk:string" foreground="#89C9A6" />
+    <style name="logtalk:variable" foreground="#D4DEEB" />
+    <style name="lua:boolean" foreground="#98FFB3" />
+    <style name="lua:comment" italic="true" foreground="#8293AA" />
+    <style name="lua:escape" foreground="#59C9C2" />
+    <style name="lua:function" foreground="#64B5F6" />
+    <style name="lua:keyword" foreground="#B49AF0" />
+    <style name="lua:label" foreground="#B49AF0" />
+    <style name="lua:nil-value" foreground="#98FFB3" />
+    <style name="lua:reserved" foreground="#B49AF0" />
+    <style name="lua:string" foreground="#89C9A6" />
+    <style name="m4:ac-macro" foreground="#B49AF0" />
+    <style name="m4:ac-macro-obsolete" foreground="#ED7786" />
+    <style name="sh:comment" italic="true" foreground="#8293AA" />
+    <style name="m4:m4-comment" italic="true" foreground="#8293AA" />
+    <style name="m4:m4-macro" foreground="#B49AF0" />
+    <style name="makefile:command" foreground="#64B5F6" />
+    <style name="makefile:function" foreground="#64B5F6" />
+    <style name="makefile:keyword" foreground="#B49AF0" />
+    <style name="makefile:targets" foreground="#64B5F6" />
+    <style name="mallard:block" foreground="#D4DEEB" />
+    <style name="mallard:inline" foreground="#D4DEEB" />
+    <style name="mallard:page" foreground="#D4DEEB" />
+    <style name="mallard:section" foreground="#D4DEEB" />
+    <style name="matlab:builtin" foreground="#59C9C2" />
+    <style name="matlab:comment" italic="true" foreground="#8293AA" />
+    <style name="matlab:keyword" foreground="#B49AF0" />
+    <style name="maxima:builtin" foreground="#59C9C2" />
+    <style name="maxima:comment" italic="true" foreground="#8293AA" />
+    <style name="maxima:keyword" foreground="#B49AF0" />
+    <style name="maxima:string" foreground="#89C9A6" />
+    <style name="maxima:variable" foreground="#D4DEEB" />
+    <style name="mediawiki:light-emphasis" italic="true" foreground="#B49AF0" />
+    <style name="mediawiki:line" foreground="#8293AA" />
+    <style name="mediawiki:link" underline="single" foreground="#64B5F6" />
+    <style name="mediawiki:link-symbol" foreground="#64B5F6" />
+    <style name="mediawiki:list" foreground="#98FFB3" />
+    <style name="mediawiki:magic-word" foreground="#B49AF0" />
+    <style name="mediawiki:preformatted" foreground="#89C9A6" />
+    <style name="mediawiki:redirect" foreground="#B49AF0" />
+    <style name="mediawiki:signature" foreground="#B49AF0" />
+    <style name="mediawiki:strong-emphasis" bold="true" foreground="#E7C080" />
+    <style name="mediawiki:table-symbol" foreground="#B49AF0" />
+    <style name="mediawiki:template" foreground="#B49AF0" />
+    <style name="mediawiki:title" bold="true" foreground="#64B5F6" />
+    <style name="mediawiki:url" foreground="#59C9C2" />
+    <style name="meson:boolean" foreground="#98FFB3" />
+    <style name="meson:builtin-command" foreground="#64B5F6" />
+    <style name="meson:escape" foreground="#59C9C2" />
+    <style name="meson:keyword" foreground="#B49AF0" />
+    <style name="meson:operator" foreground="#59C9C2" />
+    <style name="meson:string" foreground="#89C9A6" />
+    <style name="modelica:base-n-integer" foreground="#E7C080" />
+    <style name="modelica:boolean" foreground="#98FFB3" />
+    <style name="modelica:builtin" foreground="#59C9C2" />
+    <style name="modelica:class-type" foreground="#59C9C2" />
+    <style name="modelica:comment" italic="true" foreground="#8293AA" />
+    <style name="modelica:data-type" foreground="#59C9C2" />
+    <style name="modelica:decimal" foreground="#E7C080" />
+    <style name="modelica:default-attribute" foreground="#D4DEEB" />
+    <style name="modelica:floating-point" foreground="#E7C080" />
+    <style name="modelica:keyword" foreground="#B49AF0" />
+    <style name="modelica:operator" foreground="#59C9C2" />
+    <style name="modelica:string" foreground="#89C9A6" />
+    <style name="xml:cdata-delim" foreground="#B49AF0" />
+    <style name="mxml:cdata-delim" foreground="#B49AF0" />
+    <style name="mxml:element-name" foreground="#D4DEEB" />
+    <style name="nemerle:binary" foreground="#E7C080" />
+    <style name="nemerle:boolean" foreground="#98FFB3" />
+    <style name="nemerle:character" foreground="#89C9A6" />
+    <style name="nemerle:comment" italic="true" foreground="#8293AA" />
+    <style name="nemerle:decimal" foreground="#E7C080" />
+    <style name="nemerle:error" foreground="#ED7786" />
+    <style name="nemerle:floating-point" foreground="#E7C080" />
+    <style name="nemerle:hexadecimal" foreground="#E7C080" />
+    <style name="nemerle:keyword" foreground="#B49AF0" />
+    <style name="nemerle:null-value" foreground="#98FFB3" />
+    <style name="nemerle:octal" foreground="#E7C080" />
+    <style name="nemerle:preprocessor" foreground="#B49AF0" />
+    <style name="nemerle:string" foreground="#89C9A6" />
+    <style name="nemerle:type" foreground="#59C9C2" />
+    <style name="netrexx:builtin-function" foreground="#59C9C2" />
+    <style name="netrexx:char" foreground="#89C9A6" />
+    <style name="netrexx:escaped-character" foreground="#59C9C2" />
+    <style name="netrexx:externals" foreground="#B49AF0" />
+    <style name="netrexx:keywords" foreground="#B49AF0" />
+    <style name="netrexx:line-comment" italic="true" foreground="#8293AA" />
+    <style name="netrexx:modifiers" foreground="#59C9C2" />
+    <style name="netrexx:numeric" foreground="#E7C080" />
+    <style name="netrexx:options" foreground="#64B5F6" />
+    <style name="netrexx:primitive-types" foreground="#59C9C2" />
+    <style name="netrexx:special" foreground="#98FFB3" />
+    <style name="netrexx:string" foreground="#89C9A6" />
+    <style name="netrexx:sub-keywords" italic="true" foreground="#8293AA" />
+    <style name="netrexx:visibility" foreground="#D4DEEB" />
+    <style name="nsis:comment" italic="true" foreground="#8293AA" />
+    <style name="nsis:operator" foreground="#59C9C2" />
+    <style name="nsis:string" foreground="#89C9A6" />
+    <style name="nsis:variable" foreground="#59C9C2" />
+    <style name="objc:common-defines" foreground="#98FFB3" />
+    <style name="objc:keyword" foreground="#B49AF0" />
+    <style name="objc:string" foreground="#89C9A6" />
+    <style name="objc:type" foreground="#59C9C2" />
+    <style name="objj:type" foreground="#59C9C2" />
+    <style name="ocaml:base-n-integer" foreground="#E7C080" />
+    <style name="ocaml:boolean" foreground="#98FFB3" />
+    <style name="ocaml:comment" italic="true" foreground="#8293AA" />
+    <style name="ocaml:decimal" foreground="#E7C080" />
+    <style name="ocaml:error" foreground="#ED7786" />
+    <style name="ocaml:escape" foreground="#59C9C2" />
+    <style name="ocaml:floating-point" foreground="#E7C080" />
+    <style name="ocaml:fun-keyword" foreground="#B49AF0" />
+    <style name="ocaml:keyword" foreground="#B49AF0" />
+    <style name="ocaml:label" foreground="#59C9C2" />
+    <style name="ocaml:meta-keyword" foreground="#B49AF0" />
+    <style name="ocaml:module" foreground="#59C9C2" />
+    <style name="ocaml:ocamldoc" foreground="#E7C080" />
+    <style name="ocaml:poly-variant" foreground="#59C9C2" />
+    <style name="ocaml:std-modules" foreground="#59C9C2" />
+    <style name="ocaml:string" foreground="#89C9A6" />
+    <style name="ocaml:type" foreground="#59C9C2" />
+    <style name="ocaml:type-var" foreground="#59C9C2" />
+    <style name="ocaml:variant" foreground="#59C9C2" />
+    <style name="ocl:comment" italic="true" foreground="#8293AA" />
+    <style name="ocl:keyword" foreground="#B49AF0" />
+    <style name="ocl:operation" foreground="#B49AF0" />
+    <style name="ocl:operators" foreground="#B49AF0" />
+    <style name="ocl:string" foreground="#89C9A6" />
+    <style name="ocl:type" foreground="#59C9C2" />
+    <style name="octave:boolean" foreground="#98FFB3" />
+    <style name="octave:builtin" foreground="#59C9C2" />
+    <style name="octave:comment" italic="true" foreground="#8293AA" />
+    <style name="octave:data-type" foreground="#59C9C2" />
+    <style name="octave:keyword" foreground="#B49AF0" />
+    <style name="octave:operator" foreground="#59C9C2" />
+    <style name="octave:package-manager" foreground="#B49AF0" />
+    <style name="octave:reserved-constant" foreground="#98FFB3" />
+    <style name="octave:storage-type" foreground="#59C9C2" />
+    <style name="octave:string" foreground="#89C9A6" />
+    <style name="ooc:boolean" foreground="#98FFB3" />
+    <style name="ooc:comment" italic="true" foreground="#8293AA" />
+    <style name="ooc:decimal" foreground="#E7C080" />
+    <style name="ooc:declaration" foreground="#59C9C2" />
+    <style name="ooc:error" foreground="#ED7786" />
+    <style name="ooc:escaped-character" foreground="#59C9C2" />
+    <style name="ooc:external" foreground="#B49AF0" />
+    <style name="ooc:floating-point" foreground="#E7C080" />
+    <style name="ooc:hexadecimal" foreground="#E7C080" />
+    <style name="ooc:keyword" foreground="#B49AF0" />
+    <style name="ooc:null-value" foreground="#98FFB3" />
+    <style name="ooc:octal" foreground="#E7C080" />
+    <style name="ooc:reserved" foreground="#ED7786" />
+    <style name="ooc:scope-declaration" foreground="#59C9C2" />
+    <style name="ooc:storage-class" foreground="#59C9C2" />
+    <style name="ooc:string" foreground="#89C9A6" />
+    <style name="ooc:type" foreground="#59C9C2" />
+    <style name="opal:boolean" foreground="#98FFB3" />
+    <style name="opal:comment" italic="true" foreground="#8293AA" />
+    <style name="opal:common-defines" foreground="#98FFB3" />
+    <style name="opal:decimal" foreground="#E7C080" />
+    <style name="opal:error" foreground="#ED7786" />
+    <style name="opal:keysymbol" foreground="#B49AF0" />
+    <style name="opal:keyword" foreground="#B49AF0" />
+    <style name="opal:module-handler" foreground="#B49AF0" />
+    <style name="opal:string" foreground="#89C9A6" />
+    <style name="opal:type" foreground="#59C9C2" />
+    <style name="opencl:data-type" foreground="#59C9C2" />
+    <style name="opencl:device-cast" foreground="#64B5F6" />
+    <style name="opencl:device-function" foreground="#64B5F6" />
+    <style name="opencl:global-function" foreground="#64B5F6" />
+    <style name="opencl:global-var" foreground="#D4DEEB" />
+    <style name="opencl:keyword" foreground="#B49AF0" />
+    <style name="opencl:opencl-const" foreground="#98FFB3" />
+    <style name="pascal:comment" italic="true" foreground="#8293AA" />
+    <style name="pascal:decimal" foreground="#E7C080" />
+    <style name="pascal:keyword" foreground="#B49AF0" />
+    <style name="pascal:preprocessor" foreground="#B49AF0" />
+    <style name="pascal:string" foreground="#89C9A6" />
+    <style name="pascal:type" foreground="#59C9C2" />
+    <style name="perl:builtin" foreground="#59C9C2" />
+    <style name="perl:comment" italic="true" foreground="#8293AA" />
+    <style name="perl:control" foreground="#B49AF0" />
+    <style name="perl:error" foreground="#ED7786" />
+    <style name="perl:file-descriptor" foreground="#98FFB3" />
+    <style name="perl:here-doc" foreground="#89C9A6" />
+    <style name="perl:here-doc-bound" foreground="#89C9A6" />
+    <style name="perl:include-statement" foreground="#B49AF0" />
+    <style name="perl:keyword" foreground="#B49AF0" />
+    <style name="perl:line-directive" foreground="#B49AF0" />
+    <style name="perl:operator" foreground="#B49AF0" />
+    <style name="perl:pod" italic="true" foreground="#8293AA" />
+    <style name="perl:pod-escape" foreground="#59C9C2" />
+    <style name="perl:pod-heading" foreground="#59C9C2" />
+    <style name="perl:pod-keyword" foreground="#B49AF0" />
+    <style name="perl:regex" foreground="#89C9A6" />
+    <style name="perl:string" foreground="#89C9A6" />
+    <style name="perl:system-command" foreground="#89C9A6" />
+    <style name="perl:variable" foreground="#59C9C2" />
+    <style name="php:boolean" foreground="#98FFB3" />
+    <style name="php:comment" italic="true" foreground="#8293AA" />
+    <style name="php:common-function" foreground="#B49AF0" />
+    <style name="php:decimal" foreground="#E7C080" />
+    <style name="php:error" foreground="#ED7786" />
+    <style name="php:escape" foreground="#59C9C2" />
+    <style name="php:floating-point" foreground="#E7C080" />
+    <style name="php:here-doc" foreground="#89C9A6" />
+    <style name="php:here-doc-bound" foreground="#B49AF0" />
+    <style name="php:hexadecimal" foreground="#E7C080" />
+    <style name="php:identifier" foreground="#D4DEEB" />
+    <style name="php:keyword" foreground="#B49AF0" />
+    <style name="php:null-value" foreground="#98FFB3" />
+    <style name="php:octal" foreground="#E7C080" />
+    <style name="php:operator" foreground="#59C9C2" />
+    <style name="php:preprocessor" foreground="#B49AF0" />
+    <style name="php:string" foreground="#89C9A6" />
+    <style name="php:type" foreground="#59C9C2" />
+    <style name="php:variable" foreground="#D4DEEB" />
+    <style name="pig:boolean" foreground="#98FFB3" />
+    <style name="pig:builtin-functions" foreground="#64B5F6" />
+    <style name="pig:comment" italic="true" foreground="#8293AA" />
+    <style name="pig:datatype" foreground="#59C9C2" />
+    <style name="pig:null" foreground="#98FFB3" />
+    <style name="pig:reserved-words" foreground="#B49AF0" />
+    <style name="pkgconfig:info" foreground="#B49AF0" />
+    <style name="pkgconfig:variable" foreground="#B49AF0" />
+    <style name="powershell:builtin-function" foreground="#59C9C2" />
+    <style name="powershell:builtin-parameters" foreground="#B49AF0" />
+    <style name="powershell:char" foreground="#59C9C2" />
+    <style name="powershell:comment" italic="true" foreground="#8293AA" />
+    <style name="powershell:datatype" foreground="#59C9C2" />
+    <style name="powershell:function-param" foreground="#B49AF0" />
+    <style name="powershell:keyword" foreground="#B49AF0" />
+    <style name="powershell:multiline-comment" foreground="#59C9C2" />
+    <style name="powershell:number" foreground="#59C9C2" />
+    <style name="powershell:operator" foreground="#B49AF0" />
+    <style name="powershell:string" foreground="#89C9A6" />
+    <style name="powershell:symbol" foreground="#D4DEEB" />
+    <style name="powershell:user-function" foreground="#98FFB3" />
+    <style name="powershell:variable" italic="true" foreground="#8293AA" />
+    <style name="prolog:comment" italic="true" foreground="#8293AA" />
+    <style name="prolog:error" foreground="#ED7786" />
+    <style name="prolog:escaped-character" foreground="#59C9C2" />
+    <style name="prolog:keyword" foreground="#B49AF0" />
+    <style name="prolog:number" foreground="#E7C080" />
+    <style name="prolog:operator" foreground="#59C9C2" />
+    <style name="prolog:string" foreground="#89C9A6" />
+    <style name="prolog:variable" foreground="#59C9C2" />
+    <style name="proto:boolean" foreground="#98FFB3" />
+    <style name="proto:comment" italic="true" foreground="#8293AA" />
+    <style name="proto:keyword" foreground="#B49AF0" />
+    <style name="proto:statement" foreground="#B49AF0" />
+    <style name="proto:string" foreground="#89C9A6" />
+    <style name="proto:type" foreground="#59C9C2" />
+    <style name="proto:variable" foreground="#59C9C2" />
+    <style name="puppet:class-names" foreground="#B49AF0" />
+    <style name="puppet:functions" foreground="#59C9C2" />
+    <style name="puppet:metaparameters" foreground="#B49AF0" />
+    <style name="puppet:parameters" foreground="#B49AF0" />
+    <style name="puppet:resources" foreground="#B49AF0" />
+    <style name="puppet:values" foreground="#59C9C2" />
+    <style name="puppet:variables" foreground="#D4DEEB" />
+    <style name="r:assignment-operator" foreground="#59C9C2" />
+    <style name="r:boolean" foreground="#98FFB3" />
+    <style name="r:delimiter" foreground="#59C9C2" />
+    <style name="r:floating-point" foreground="#E7C080" />
+    <style name="r:functions" foreground="#64B5F6" />
+    <style name="r:integer-number" foreground="#E7C080" />
+    <style name="r:keyword" foreground="#B49AF0" />
+    <style name="r:reserved-classes" foreground="#59C9C2" />
+    <style name="r:special-constant" foreground="#98FFB3" />
+    <style name="rpmspec:changelog-date" foreground="#E7C080" />
+    <style name="rpmspec:changelog-email" foreground="#D4DEEB" />
+    <style name="rpmspec:command-macro" foreground="#D4DEEB" />
+    <style name="rpmspec:conditional-macro" foreground="#B49AF0" />
+    <style name="rpmspec:define" foreground="#B49AF0" />
+    <style name="rpmspec:directory-macro" foreground="#D4DEEB" />
+    <style name="rpmspec:flow-conditional" foreground="#B49AF0" />
+    <style name="rpmspec:header" foreground="#B49AF0" />
+    <style name="rpmspec:other-macro" foreground="#D4DEEB" />
+    <style name="rpmspec:rpm-var" foreground="#D4DEEB" />
+    <style name="rpmspec:section" foreground="#59C9C2" />
+    <style name="rpmspec:spec-macro" foreground="#B49AF0" />
+    <style name="rpmspec:switch" foreground="#59C9C2" />
+    <style name="rst:bullet" foreground="#98FFB3" />
+    <style name="rst:code" foreground="#89C9A6" />
+    <style name="rst:comment" italic="true" foreground="#8293AA" />
+    <style name="rst:directive" foreground="#98FFB3" />
+    <style name="rst:emphasis" italic="true" foreground="#B49AF0" />
+    <style name="rst:header" bold="true" foreground="#64B5F6" />
+    <style name="rst:interpreted" foreground="#D4DEEB" />
+    <style name="rst:lineblock" foreground="#89C9A6" />
+    <style name="rst:link" underline="single" foreground="#64B5F6" />
+    <style name="rst:strong-emphasis" bold="true" foreground="#E7C080" />
+    <style name="rst:substitution" foreground="#59C9C2" />
+    <style name="rst:url" underline="single" foreground="#64B5F6" />
+    <style name="ruby:attribute-definition" foreground="#B49AF0" />
+    <style name="ruby:base-n-integer" foreground="#E7C080" />
+    <style name="ruby:boolean" foreground="#98FFB3" />
+    <style name="ruby:builtin" foreground="#59C9C2" />
+    <style name="ruby:character-literal" foreground="#89C9A6" />
+    <style name="ruby:comment" italic="true" foreground="#8293AA" />
+    <style name="ruby:constant" foreground="#59C9C2" />
+    <style name="ruby:decimal" foreground="#E7C080" />
+    <style name="ruby:escape" foreground="#59C9C2" />
+    <style name="ruby:floating-point" foreground="#E7C080" />
+    <style name="ruby:here-doc" foreground="#89C9A6" />
+    <style name="ruby:here-doc-bound" foreground="#89C9A6" />
+    <style name="ruby:keyword" foreground="#B49AF0" />
+    <style name="ruby:literal" foreground="#59C9C2" />
+    <style name="ruby:module-handler" foreground="#B49AF0" />
+    <style name="ruby:nil-value" foreground="#98FFB3" />
+    <style name="ruby:numeric-literal" foreground="#E7C080" />
+    <style name="ruby:predefined-variable" foreground="#D4DEEB" />
+    <style name="ruby:regex" foreground="#D4DEEB" />
+    <style name="ruby:special-variable" foreground="#D4DEEB" />
+    <style name="ruby:string" foreground="#89C9A6" />
+    <style name="ruby:symbol" foreground="#89C9A6" />
+    <style name="ruby:variable" foreground="#D4DEEB" />
+    <style name="rust:attribute" foreground="#B49AF0" />
+    <style name="rust:boolean" foreground="#98FFB3" />
+    <style name="rust:char" foreground="#89C9A6" />
+    <style name="rust:comment" italic="true" foreground="#8293AA" />
+    <style name="rust:error" foreground="#ED7786" />
+    <style name="rust:identifier" foreground="#D4DEEB" />
+    <style name="rust:keyword" foreground="#B49AF0" />
+    <style name="rust:lifetime" foreground="#B49AF0" />
+    <style name="rust:macro" foreground="#B49AF0" />
+    <style name="rust:number" foreground="#E7C080" />
+    <style name="rust:scope" foreground="#B49AF0" />
+    <style name="rust:self" foreground="#D4DEEB" />
+    <style name="rust:string" foreground="#89C9A6" />
+    <style name="rust:type" foreground="#59C9C2" />
+    <style name="scala:builtin" foreground="#59C9C2" />
+    <style name="scala:comment" italic="true" foreground="#8293AA" />
+    <style name="scala:declaration" foreground="#59C9C2" />
+    <style name="scala:error" foreground="#ED7786" />
+    <style name="scala:escaped-character" foreground="#59C9C2" />
+    <style name="scala:external" foreground="#B49AF0" />
+    <style name="scala:keyword" foreground="#B49AF0" />
+    <style name="scala:modifier" foreground="#59C9C2" />
+    <style name="scala:number" foreground="#E7C080" />
+    <style name="scala:operator" foreground="#59C9C2" />
+    <style name="scala:other" foreground="#59C9C2" />
+    <style name="scala:special" foreground="#98FFB3" />
+    <style name="scala:string" foreground="#89C9A6" />
+    <style name="scala:type" foreground="#D4DEEB" />
+    <style name="scala:xmltag" foreground="#D4DEEB" />
+    <style name="scheme:boolean" foreground="#98FFB3" />
+    <style name="scheme:comment" italic="true" foreground="#8293AA" />
+    <style name="scheme:function" foreground="#64B5F6" />
+    <style name="scheme:keyword" foreground="#B49AF0" />
+    <style name="scheme:string" foreground="#89C9A6" />
+    <style name="scilab:boolean" foreground="#98FFB3" />
+    <style name="scilab:comment" italic="true" foreground="#8293AA" />
+    <style name="scilab:floating-point" foreground="#E7C080" />
+    <style name="scilab:function" foreground="#64B5F6" />
+    <style name="scilab:keyword" foreground="#B49AF0" />
+    <style name="scilab:reserved-constant" foreground="#98FFB3" />
+    <style name="scilab:string" foreground="#89C9A6" />
+    <style name="scss:boolean" foreground="#98FFB3" />
+    <style name="scss:group-delimiter" foreground="#59C9C2" />
+    <style name="scss:interpolation" foreground="#B49AF0" />
+    <style name="scss:list-delimiter" foreground="#59C9C2" />
+    <style name="scss:logical-operator" foreground="#B49AF0" />
+    <style name="scss:mixin-name" foreground="#B49AF0" />
+    <style name="scss:null" foreground="#98FFB3" />
+    <style name="scss:operator-symbol" foreground="#59C9C2" />
+    <style name="scss:placeholder-selector" foreground="#D4DEEB" />
+    <style name="scss:selector-fragment" foreground="#59C9C2" />
+    <style name="scss:variable" foreground="#D4DEEB" />
+    <style name="sh:common-command" foreground="#B49AF0" />
+    <style name="sh:function" foreground="#64B5F6" />
+    <style name="sh:here-doc-bound" foreground="#B49AF0" />
+    <style name="sh:keyword" foreground="#B49AF0" />
+    <style name="sh:others" foreground="#B49AF0" />
+    <style name="sh:string" foreground="#89C9A6" />
+    <style name="sh:subshell" foreground="#B49AF0" />
+    <style name="sh:variable" foreground="#59C9C2" />
+    <style name="sh:variable-definition" foreground="#59C9C2" />
+    <style name="sml:base-n-integer" foreground="#E7C080" />
+    <style name="sml:boolean" foreground="#98FFB3" />
+    <style name="sml:character" foreground="#89C9A6" />
+    <style name="sml:comment" italic="true" foreground="#8293AA" />
+    <style name="sml:decimal" foreground="#E7C080" />
+    <style name="sml:escaped-character" foreground="#59C9C2" />
+    <style name="sml:floating-point" foreground="#E7C080" />
+    <style name="sml:keyword" foreground="#B49AF0" />
+    <style name="sml:special-var" foreground="#59C9C2" />
+    <style name="sml:string" foreground="#89C9A6" />
+    <style name="sml:type" foreground="#59C9C2" />
+    <style name="solidity:boolean" foreground="#98FFB3" />
+    <style name="solidity:char" foreground="#89C9A6" />
+    <style name="solidity:comment" italic="true" foreground="#8293AA" />
+    <style name="solidity:common-defines" foreground="#98FFB3" />
+    <style name="solidity:decimal" foreground="#E7C080" />
+    <style name="solidity:error" foreground="#ED7786" />
+    <style name="solidity:escaped-character" foreground="#59C9C2" />
+    <style name="solidity:floating-point" foreground="#E7C080" />
+    <style name="solidity:function" foreground="#59C9C2" />
+    <style name="solidity:hexadecimal" foreground="#E7C080" />
+    <style name="solidity:keyword" foreground="#B49AF0" />
+    <style name="solidity:module-handler" foreground="#B49AF0" />
+    <style name="solidity:preprocessor" foreground="#B49AF0" />
+    <style name="solidity:properties" foreground="#B49AF0" />
+    <style name="solidity:reserved" foreground="#ED7786" />
+    <style name="solidity:string" foreground="#89C9A6" />
+    <style name="solidity:type" foreground="#59C9C2" />
+    <style name="sparql:boolean" foreground="#98FFB3" />
+    <style name="sparql:class" foreground="#59C9C2" />
+    <style name="sparql:datatype" foreground="#59C9C2" />
+    <style name="sparql:function" foreground="#64B5F6" />
+    <style name="sparql:individual" foreground="#98FFB3" />
+    <style name="sparql:iri" foreground="#98FFB3" />
+    <style name="sparql:keyword" foreground="#B49AF0" />
+    <style name="sparql:literal" foreground="#89C9A6" />
+    <style name="sparql:namespace" foreground="#59C9C2" />
+    <style name="sparql:operator" foreground="#59C9C2" />
+    <style name="sparql:predicate" foreground="#64B5F6" />
+    <style name="sparql:var" foreground="#B49AF0" />
+    <style name="spice:attribute" foreground="#59C9C2" />
+    <style name="spice:builtin" foreground="#59C9C2" />
+    <style name="spice:comment" italic="true" foreground="#8293AA" />
+    <style name="spice:doc-comment" italic="true" foreground="#8293AA" />
+    <style name="spice:error" foreground="#ED7786" />
+    <style name="spice:function" foreground="#64B5F6" />
+    <style name="spice:identifier" foreground="#D4DEEB" />
+    <style name="spice:note" foreground="#E7C080" />
+    <style name="spice:operator" foreground="#59C9C2" />
+    <style name="spice:preprocessor" foreground="#B49AF0" />
+    <style name="t2t:italic" italic="true" foreground="#B49AF0" />
+    <style name="spice:state-machine" italic="true" foreground="#B49AF0" />
+    <style name="spice:statement" foreground="#B49AF0" />
+    <style name="spice:string" foreground="#89C9A6" />
+    <style name="star:comment" italic="true" foreground="#8293AA" />
+    <style name="star:data-name" foreground="#D4DEEB" />
+    <style name="star:framecode" foreground="#59C9C2" />
+    <style name="star:keyword" foreground="#B49AF0" />
+    <style name="star:string" foreground="#89C9A6" />
+    <style name="sweave:command" foreground="#B49AF0" />
+    <style name="sweave:comment" italic="true" foreground="#8293AA" />
+    <style name="sweave:verbatim" italic="true" foreground="#8293AA" />
+    <style name="swift:builtin" foreground="#59C9C2" />
+    <style name="swift:comment" italic="true" foreground="#8293AA" />
+    <style name="swift:compiler-control" foreground="#B49AF0" />
+    <style name="swift:declaration" foreground="#59C9C2" />
+    <style name="swift:escaped-character" foreground="#59C9C2" />
+    <style name="swift:external" foreground="#B49AF0" />
+    <style name="swift:interpolated" foreground="#D4DEEB" />
+    <style name="swift:keyword" foreground="#B49AF0" />
+    <style name="swift:modifier" foreground="#59C9C2" />
+    <style name="swift:number" foreground="#E7C080" />
+    <style name="swift:operator" foreground="#59C9C2" />
+    <style name="swift:special" foreground="#98FFB3" />
+    <style name="swift:string" foreground="#89C9A6" />
+    <style name="swift:type" foreground="#D4DEEB" />
+    <style name="systemverilog:compiler-directive" foreground="#B49AF0" />
+    <style name="systemverilog:keyword" foreground="#B49AF0" />
+    <style name="systemverilog:system-task" foreground="#B49AF0" />
+    <style name="systemverilog:type" foreground="#59C9C2" />
+    <style name="t2t:section" bold="true" foreground="#64B5F6" />
+    <style name="t2t:anchor" bold="true" foreground="#64B5F6" />
+    <style name="t2t:bold" bold="true" foreground="#E7C080" />
+    <style name="t2t:comment" italic="true" foreground="#8293AA" />
+    <style name="t2t:header" bold="true" foreground="#64B5F6" />
+    <style name="t2t:option" foreground="#B49AF0" />
+    <style name="t2t:option-name" foreground="#B49AF0" />
+    <style name="t2t:section-1" bold="true" foreground="#64B5F6" />
+    <style name="t2t:section-2" bold="true" foreground="#64B5F6" />
+    <style name="t2t:section-3" bold="true" foreground="#64B5F6" />
+    <style name="t2t:section-4" bold="true" foreground="#64B5F6" />
+    <style name="t2t:section-5" bold="true" foreground="#64B5F6" />
+    <style name="t2t:verbatim" foreground="#89C9A6" />
+    <style name="t2t:verbatim-block" foreground="#89C9A6" />
+    <style name="tcl:keyword" foreground="#B49AF0" />
+    <style name="tcl:variable" foreground="#59C9C2" />
+    <style name="tera:boolean" foreground="#98FFB3" />
+    <style name="tera:comment" italic="true" foreground="#8293AA" />
+    <style name="tera:decimal" foreground="#E7C080" />
+    <style name="tera:error" foreground="#ED7786" />
+    <style name="tera:escape" foreground="#59C9C2" />
+    <style name="tera:filters" foreground="#64B5F6" />
+    <style name="tera:floating-point" foreground="#E7C080" />
+    <style name="tera:hexadecimal" foreground="#E7C080" />
+    <style name="tera:keyword" foreground="#B49AF0" />
+    <style name="tera:octal" foreground="#E7C080" />
+    <style name="tera:string" foreground="#89C9A6" />
+    <style name="terraform:block-label" foreground="#89C9A6" />
+    <style name="terraform:block-title" foreground="#D4DEEB" />
+    <style name="terraform:block-type" bold="true" foreground="#E7C080" />
+    <style name="terraform:boolean" foreground="#98FFB3" />
+    <style name="terraform:builtin-function" foreground="#64B5F6" />
+    <style name="terraform:comment" italic="true" foreground="#8293AA" />
+    <style name="terraform:data-type" foreground="#59C9C2" />
+    <style name="terraform:error" foreground="#ED7786" />
+    <style name="terraform:escaped-character" foreground="#59C9C2" />
+    <style name="terraform:identifier" foreground="#59C9C2" />
+    <style name="terraform:interpolated" foreground="#D4DEEB" />
+    <style name="terraform:interpolation" foreground="#59C9C2" />
+    <style name="terraform:keyword" foreground="#B49AF0" />
+    <style name="terraform:null" foreground="#98FFB3" />
+    <style name="terraform:number" foreground="#E7C080" />
+    <style name="terraform:reference" foreground="#98FFB3" />
+    <style name="terraform:statement" foreground="#B49AF0" />
+    <style name="terraform:string" foreground="#89C9A6" />
+    <style name="texinfo:comment" italic="true" foreground="#8293AA" />
+    <style name="texinfo:escaped-character" foreground="#59C9C2" />
+    <style name="texinfo:file-attributes" foreground="#B49AF0" />
+    <style name="texinfo:generated-content" foreground="#B49AF0" />
+    <style name="texinfo:include" foreground="#B49AF0" />
+    <style name="texinfo:keyword" foreground="#B49AF0" />
+    <style name="texinfo:macros" foreground="#B49AF0" />
+    <style name="texinfo:string" foreground="#89C9A6" />
+    <style name="thrift:comment" italic="true" foreground="#8293AA" />
+    <style name="thrift:keyword" foreground="#B49AF0" />
+    <style name="thrift:string" foreground="#89C9A6" />
+    <style name="thrift:type" foreground="#59C9C2" />
+    <style name="toml:boolean-value" foreground="#98FFB3" />
+    <style name="toml:comment" italic="true" foreground="#8293AA" />
+    <style name="toml:datetime-value" foreground="#98FFB3" />
+    <style name="toml:decimal" foreground="#E7C080" />
+    <style name="toml:error" foreground="#ED7786" />
+    <style name="toml:floating-point" foreground="#E7C080" />
+    <style name="toml:keyword" foreground="#B49AF0" />
+    <style name="toml:non-standard-key" foreground="#59C9C2" />
+    <style name="toml:string" foreground="#89C9A6" />
+    <style name="toml:variable" foreground="#59C9C2" />
+    <style name="typescript:basic-type" foreground="#59C9C2" />
+    <style name="typescript:binary-integer-type" foreground="#E7C080" />
+    <style name="typescript:boolean-type" foreground="#98FFB3" />
+    <style name="typescript:bracket-type-operator" foreground="#59C9C2" />
+    <style name="typescript:built-in-library-type" foreground="#59C9C2" />
+    <style name="typescript:conditional-type-operator" foreground="#59C9C2" />
+    <style name="typescript:decimal-type" foreground="#E7C080" />
+    <style name="typescript:decorator" foreground="#E7C080" />
+    <style name="typescript:decorator-operator" foreground="#E7C080" />
+    <style name="typescript:hex-integer-type" foreground="#E7C080" />
+    <style name="typescript:interface-declaration" foreground="#59C9C2" />
+    <style name="typescript:mapped-type-modifier-prefix" foreground="#59C9C2" />
+    <style name="typescript:namespace-declaration" foreground="#59C9C2" />
+    <style name="typescript:non-null-assertion-operator" foreground="#98FFB3" />
+    <style name="typescript:object-type-literal" foreground="#98FFB3" />
+    <style name="typescript:octal-integer-type" foreground="#E7C080" />
+    <style name="typescript:parenthesized-type-or-function-type" foreground="#64B5F6" />
+    <style name="typescript:parenthesized-type-or-function-type-operator" foreground="#64B5F6" />
+    <style name="typescript:string-type" foreground="#89C9A6" />
+    <style name="typescript:tuple-type-literal" foreground="#98FFB3" />
+    <style name="typescript:type-alias-declaration" foreground="#59C9C2" />
+    <style name="typescript:type-annotation" foreground="#E7C080" />
+    <style name="typescript:type-arguments-list" foreground="#59C9C2" />
+    <style name="typescript:type-expression" foreground="#59C9C2" />
+    <style name="typescript:type-keyword" foreground="#B49AF0" />
+    <style name="typescript:type-parameters-list" foreground="#59C9C2" />
+    <style name="typescript:type-parameters-list-or-type-assertion" foreground="#59C9C2" />
+    <style name="typescript:type-query" foreground="#59C9C2" />
+    <style name="typescript:union-intersection-type-operator" foreground="#59C9C2" />
+    <style name="vala:attributes" foreground="#64B5F6" />
+    <style name="vala:boolean" foreground="#98FFB3" />
+    <style name="vala:comment" italic="true" foreground="#8293AA" />
+    <style name="vala:directive" foreground="#B49AF0" />
+    <style name="vala:error" foreground="#ED7786" />
+    <style name="vala:escape" foreground="#59C9C2" />
+    <style name="vala:keyword" foreground="#B49AF0" />
+    <style name="vala:null-value" foreground="#98FFB3" />
+    <style name="vala:regex" foreground="#89C9A6" />
+    <style name="vala:string" foreground="#89C9A6" />
+    <style name="vala:string-template" foreground="#64B5F6" />
+    <style name="vala:type" foreground="#59C9C2" />
+    <style name="vbnet:boolean" foreground="#98FFB3" />
+    <style name="vbnet:comment" italic="true" foreground="#8293AA" />
+    <style name="vbnet:keyword" foreground="#B49AF0" />
+    <style name="vbnet:preprocessor" foreground="#B49AF0" />
+    <style name="vbnet:special-constant" foreground="#98FFB3" />
+    <style name="vbnet:string" foreground="#89C9A6" />
+    <style name="vbnet:type" foreground="#59C9C2" />
+    <style name="verilog:base-n-integer" foreground="#E7C080" />
+    <style name="verilog:comment" italic="true" foreground="#8293AA" />
+    <style name="verilog:compiler-directive" foreground="#B49AF0" />
+    <style name="verilog:error" foreground="#ED7786" />
+    <style name="verilog:escaped-character" foreground="#59C9C2" />
+    <style name="verilog:gate" foreground="#B49AF0" />
+    <style name="verilog:ieee-system-task" foreground="#B49AF0" />
+    <style name="verilog:integer-number" foreground="#E7C080" />
+    <style name="verilog:keyword" foreground="#B49AF0" />
+    <style name="verilog:lrm-additional-system-task" foreground="#B49AF0" />
+    <style name="verilog:printf" foreground="#59C9C2" />
+    <style name="verilog:real-number" foreground="#E7C080" />
+    <style name="verilog:string" foreground="#89C9A6" />
+    <style name="verilog:type" foreground="#59C9C2" />
+    <style name="vhdl:base-n-number" foreground="#E7C080" />
+    <style name="vhdl:boolean" foreground="#98FFB3" />
+    <style name="vhdl:character" foreground="#89C9A6" />
+    <style name="vhdl:comment" italic="true" foreground="#8293AA" />
+    <style name="vhdl:keyword" foreground="#B49AF0" />
+    <style name="vhdl:number" foreground="#E7C080" />
+    <style name="vhdl:real" foreground="#E7C080" />
+    <style name="vhdl:string" foreground="#89C9A6" />
+    <style name="vhdl:type" foreground="#59C9C2" />
+    <style name="xml:namespace" foreground="#D4DEEB" />
+    <style name="xml:processing-instruction" foreground="#B49AF0" />
+    <style name="xml:tag" foreground="#59C9C2" />
+    <style name="xslt:element" foreground="#B49AF0" />
+    <style name="xslt:namespace" foreground="#B49AF0" />
+    <style name="yacc:keyword" foreground="#B49AF0" />
+    <style name="yacc:rule" foreground="#D4DEEB" />
+    <style name="yacc:token-type" foreground="#59C9C2" />
+    <style name="yaml:alias" foreground="#59C9C2" />
+    <style name="yaml:anchor" foreground="#D4DEEB" />
+    <style name="yaml:bool" foreground="#98FFB3" />
+    <style name="yaml:comment" italic="true" foreground="#8293AA" />
+    <style name="yaml:directive" italic="true" foreground="#8293AA" />
+    <style name="yaml:escape-sequence" foreground="#59C9C2" />
+    <style name="yaml:float" foreground="#E7C080" />
+    <style name="yaml:int" foreground="#E7C080" />
+    <style name="yaml:map-key" foreground="#B49AF0" />
+    <style name="yaml:null" foreground="#98FFB3" />
+    <style name="yaml:scalar" foreground="#89C9A6" />
+    <style name="yaml:string" foreground="#89C9A6" />
+    <style name="yaml:tag" foreground="#B49AF0" />
+    <style name="yara:boolean" foreground="#98FFB3" />
+    <style name="yara:comment" italic="true" foreground="#8293AA" />
+    <style name="yara:decimal" foreground="#E7C080" />
+    <style name="yara:error" foreground="#ED7786" />
+    <style name="yara:escaped-character" foreground="#59C9C2" />
+    <style name="yara:hexadecimal" foreground="#E7C080" />
+    <style name="yara:include" foreground="#B49AF0" />
+    <style name="yara:keyword" foreground="#B49AF0" />
+    <style name="yara:rule" foreground="#64B5F6" />
+    <style name="yara:string" foreground="#89C9A6" />
+</style-scheme>

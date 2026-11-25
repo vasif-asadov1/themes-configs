@@ -1,0 +1,6 @@
+settings.json
+scripts/**
+src/**
+reports/**
+**/__pycache__/**
+**/*.bak

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<language id="jsonc" name="JSON with Comments" version="2.0" section="Other">
+  <metadata>
+    <property name="globs">*.jsonc</property>
+  </metadata>
+  <styles>
+    <style id="comment" name="comment"/>
+    <style id="keyname" name="keyname"/>
+    <style id="string" name="string"/>
+    <style id="decimal" name="decimal"/>
+    <style id="boolean" name="boolean"/>
+    <style id="null-value" name="null-value"/>
+  </styles>
+  <definitions>
+    <context id="line-comment" style-ref="comment">
+      <match>//.*$</match>
+    </context>
+    <context id="block-comment" style-ref="comment">
+      <start>/\*</start>
+      <end>\*/</end>
+    </context>
+    <context id="key" style-ref="keyname">
+      <match>"(?:\\.|[^"\\])*"(?=\s*:)</match>
+    </context>
+    <context id="string" style-ref="string">
+      <match>"(?:\\.|[^"\\])*"</match>
+    </context>
+    <context id="number" style-ref="decimal">
+      <match>-?\b\d+(?:\.\d+)?(?:[eE][+-]?\d+)?\b</match>
+    </context>
+    <context id="boolean" style-ref="boolean">
+      <match>\b(?:true|false)\b</match>
+    </context>
+    <context id="null" style-ref="null-value">
+      <match>\bnull\b</match>
+    </context>
+    <context id="jsonc">
+      <include>
+        <context ref="line-comment"/>
+        <context ref="block-comment"/>
+        <context ref="key"/>
+        <context ref="string"/>
+        <context ref="number"/>
+        <context ref="boolean"/>
+        <context ref="null"/>
+      </include>
+    </context>
+  </definitions>
+</language>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<style-scheme id="obsidian-sapphire-v2" name="Obsidian Sapphire Luxury V2" version="1.0">
+  <author>Obsidian Sapphire</author>
+  <description>Dark engineering palette</description>
+  <style name="text" background="#151B23" foreground="#D4DEEB"/>
+  <style name="selection" background="#2C4057" foreground="#D4DEEB"/>
+  <style name="current-line" background="#1C2835"/>
+  <style name="line-numbers" background="#151B23" foreground="#8293AA"/>
+  <style name="cursor" foreground="#98FFB3"/>
+  <style name="bracket-match" background="#2C4057" bold="true" foreground="#98FFB3"/>
+  <style name="bracket-mismatch" bold="true" foreground="#ED7786"/>
+  <style name="search-match" background="#E7C080" foreground="#151B23"/>
+  <style name="right-margin" foreground="#52657D"/>
+  <style name="draw-spaces" foreground="#52657D"/>
+  <style name="def:comment" italic="true" foreground="#8293AA"/>
+  <style name="def:shebang" italic="true" foreground="#8293AA"/>
+  <style name="def:doc-comment" italic="true" foreground="#8293AA"/>
+  <style name="def:thematic-break" foreground="#8293AA"/>
+  <style name="def:string" foreground="#89C9A6"/>
+  <style name="def:character" foreground="#89C9A6"/>
+  <style name="def:inline-code" foreground="#89C9A6"/>
+  <style name="def:preformatted-section" foreground="#89C9A6"/>
+  <style name="def:number" foreground="#E7C080"/>
+  <style name="def:decimal" foreground="#E7C080"/>
+  <style name="def:floating-point" foreground="#E7C080"/>
+  <style name="def:base-n-integer" foreground="#E7C080"/>
+  <style name="def:complex" foreground="#E7C080"/>
+  <style name="def:strong-emphasis" bold="true" foreground="#E7C080"/>
+  <style name="def:warning" foreground="#E7C080"/>
+  <style name="def:note" foreground="#E7C080"/>
+  <style name="def:constant" foreground="#98FFB3"/>
+  <style name="def:special-constant" foreground="#98FFB3"/>
+  <style name="def:boolean" foreground="#98FFB3"/>
+  <style name="def:list-marker" foreground="#98FFB3"/>
+  <style name="def:insertion" foreground="#98FFB3"/>
+  <style name="def:statement" foreground="#B49AF0"/>
+  <style name="def:keyword" foreground="#B49AF0"/>
+  <style name="def:emphasis" italic="true" foreground="#B49AF0"/>
+  <style name="def:preprocessor" foreground="#B49AF0"/>
+  <style name="def:type" foreground="#59C9C2"/>
+  <style name="def:operator" foreground="#59C9C2"/>
+  <style name="def:builtin" foreground="#59C9C2"/>
+  <style name="def:link-destination" foreground="#59C9C2"/>
+  <style name="def:doc-comment-element" foreground="#59C9C2"/>
+  <style name="def:special-char" foreground="#59C9C2"/>
+  <style name="def:function" foreground="#64B5F6"/>
+  <style name="def:heading" bold="true" foreground="#64B5F6"/>
+  <style name="def:link-text" underline="single" foreground="#64B5F6"/>
+  <style name="def:link-symbol" foreground="#64B5F6"/>
+  <style name="def:net-address" underline="single" foreground="#64B5F6"/>
+  <style name="def:underlined" underline="single" foreground="#64B5F6"/>
+  <style name="def:error" foreground="#ED7786"/>
+  <style name="def:reserved" foreground="#ED7786"/>
+  <style name="def:deletion" strikethrough="true" foreground="#ED7786"/>
+  <style name="def:identifier" foreground="#D4DEEB"/>
+  <style name="def:heading0" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading1" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading2" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading3" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading4" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading5" bold="true" foreground="#64B5F6"/>
+  <style name="def:heading6" bold="true" foreground="#64B5F6"/>
+  <style name="python:module-handler" foreground="#B49AF0"/>
+  <style name="python:keyword" foreground="#B49AF0"/>
+  <style name="python:multiline-string" foreground="#89C9A6"/>
+  <style name="python:string" foreground="#89C9A6"/>
+  <style name="python:escaped-char" foreground="#59C9C2"/>
+  <style name="python:format" foreground="#59C9C2"/>
+  <style name="python:string-conversion" foreground="#59C9C2"/>
+  <style name="python:special-variable" foreground="#E7C080"/>
+  <style name="python:boolean" foreground="#98FFB3"/>
+  <style name="python:floating-point" foreground="#E7C080"/>
+  <style name="python:decimal" foreground="#E7C080"/>
+  <style name="python:base-n-integer" foreground="#E7C080"/>
+  <style name="python:complex" foreground="#E7C080"/>
+  <style name="python:builtin-constant" foreground="#98FFB3"/>
+  <style name="python:builtin-object" foreground="#59C9C2"/>
+  <style name="python:builtin-function" foreground="#64B5F6"/>
+  <style name="python:function-name" foreground="#64B5F6"/>
+  <style name="python:class-name" foreground="#59C9C2"/>
+  <style name="python:decorator" foreground="#E7C080"/>
+  <style name="python3:module-handler" foreground="#B49AF0"/>
+  <style name="python3:keyword" foreground="#B49AF0"/>
+  <style name="python3:multiline-string" foreground="#89C9A6"/>
+  <style name="python3:string" foreground="#89C9A6"/>
+  <style name="python3:escaped-char" foreground="#59C9C2"/>
+  <style name="python3:format" foreground="#59C9C2"/>
+  <style name="python3:string-conversion" foreground="#59C9C2"/>
+  <style name="python3:special-variable" foreground="#E7C080"/>
+  <style name="python3:boolean" foreground="#98FFB3"/>
+  <style name="python3:floating-point" foreground="#E7C080"/>
+  <style name="python3:decimal" foreground="#E7C080"/>
+  <style name="python3:base-n-integer" foreground="#E7C080"/>
+  <style name="python3:complex" foreground="#E7C080"/>
+  <style name="python3:builtin-constant" foreground="#98FFB3"/>
+  <style name="python3:builtin-object" foreground="#59C9C2"/>
+  <style name="python3:builtin-function" foreground="#64B5F6"/>
+  <style name="python3:function-name" foreground="#64B5F6"/>
+  <style name="python3:class-name" foreground="#59C9C2"/>
+  <style name="python3:decorator" foreground="#E7C080"/>
+  <style name="sql:comment" italic="true" foreground="#8293AA"/>
+  <style name="sql:floating-point" foreground="#E7C080"/>
+  <style name="sql:string" foreground="#89C9A6"/>
+  <style name="sql:keyword" foreground="#B49AF0"/>
+  <style name="sql:function" foreground="#64B5F6"/>
+  <style name="sql:decimal" foreground="#E7C080"/>
+  <style name="sql:type" foreground="#59C9C2"/>
+  <style name="sql:some-thing" foreground="#59C9C2"/>
+  <style name="json:keyname" foreground="#64B5F6"/>
+  <style name="json:special-char" foreground="#59C9C2"/>
+  <style name="json:string" foreground="#89C9A6"/>
+  <style name="json:null-value" foreground="#98FFB3"/>
+  <style name="json:boolean" foreground="#98FFB3"/>
+  <style name="json:error" foreground="#ED7786"/>
+  <style name="json:float" foreground="#E7C080"/>
+  <style name="json:decimal" foreground="#E7C080"/>
+  <style name="json:comment" italic="true" foreground="#8293AA"/>
+  <style name="jsonc:keyname" foreground="#64B5F6"/>
+  <style name="jsonc:special-char" foreground="#59C9C2"/>
+  <style name="jsonc:string" foreground="#89C9A6"/>
+  <style name="jsonc:null-value" foreground="#98FFB3"/>
+  <style name="jsonc:boolean" foreground="#98FFB3"/>
+  <style name="jsonc:error" foreground="#ED7786"/>
+  <style name="jsonc:float" foreground="#E7C080"/>
+  <style name="jsonc:decimal" foreground="#E7C080"/>
+  <style name="jsonc:comment" italic="true" foreground="#8293AA"/>
+  <style name="markdown:header" bold="true" foreground="#64B5F6"/>
+  <style name="markdown:horizontal-rule" foreground="#8293AA"/>
+  <style name="markdown:list-marker" foreground="#98FFB3"/>
+  <style name="markdown:code-span" foreground="#89C9A6"/>
+  <style name="markdown:code-block" foreground="#89C9A6"/>
+  <style name="markdown:blockquote-marker" foreground="#B49AF0"/>
+  <style name="markdown:url" foreground="#59C9C2"/>
+  <style name="markdown:link-text" underline="single" foreground="#64B5F6"/>
+  <style name="markdown:label" foreground="#E7C080"/>
+  <style name="markdown:attribute-value" foreground="#98FFB3"/>
+  <style name="markdown:image-marker" foreground="#B49AF0"/>
+  <style name="markdown:emphasis" italic="true" foreground="#B49AF0"/>
+  <style name="markdown:strong-emphasis" bold="true" foreground="#E7C080"/>
+  <style name="markdown:backslash-escape" foreground="#59C9C2"/>
+  <style name="markdown:line-break" foreground="#E7C080"/>
+  <style name="typst:heading" bold="true" foreground="#64B5F6"/>
+  <style name="typst:comment" italic="true" foreground="#8293AA"/>
+  <style name="typst:string" foreground="#89C9A6"/>
+  <style name="typst:keyword" foreground="#B49AF0"/>
+  <style name="typst:function" foreground="#64B5F6"/>
+  <style name="typst:number" foreground="#E7C080"/>
+  <style name="typst:constant" foreground="#98FFB3"/>
+  <style name="typst:math" foreground="#59C9C2"/>
+  <style name="typst:reference" foreground="#59C9C2"/>
+  <style name="typst:raw" foreground="#89C9A6"/>
+  <style name="typst:strong" bold="true" foreground="#E7C080"/>
+  <style name="typst:emphasis" italic="true" foreground="#B49AF0"/>
+  <style name="typst:operator" foreground="#59C9C2"/>
+</style-scheme>
